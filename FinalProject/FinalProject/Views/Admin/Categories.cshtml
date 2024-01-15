@@ -1,0 +1,107 @@
+﻿@model IEnumerable<FinalProject.Models.Category>
+
+@{
+    Layout = "Admin";
+}
+
+@{
+    ViewData["Title"] = "Categories";
+}
+
+
+<div class="container">
+
+    <div class="row pt-4 pb-3">
+        <div class="col-6">
+            <h2 class="text-primary"> Category List</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Admin" asp-action="CreatCategories" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i> Create a new Category
+            </a>
+        </div>
+
+
+        <div class="col-12 mt-3">
+            <form method="post">
+                <div class="input-group">
+                    <input name="SearchItem" type="search" class="form-control rounded m-1" placeholder="Search By Collection" aria-label="Search" aria-describedby="search-addon" />
+                    <button asp-action="Categories" type="submit" class="btn btn-outline-primary m-1" data-mdb-ripple-init>Search</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>
+                    Category Name
+                </th>
+                <th>
+                    Collection
+                </th>
+                <th>
+                    Image
+                </th>
+                <th>
+                    Actions
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CategoryContainer.Name)
+                    </td>
+                    <td>
+                        <img src="@Url.Content(item.Image)" alt="Category Image" class="img-thumbnail" style="max-width: 100px; max-height: 100px;" />
+                    </td>
+                    <td class="text-center">
+                        <a asp-action="UpdateCategories" asp-route-id="@item.ID" class="btn btn-warning">Edit</a>
+                        <a class="btn btn-danger deletebtn" data-id="@item.ID">Delete</a>
+                    </td>
+
+                </tr>
+
+            }
+    </table>
+
+</div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script>
+    // Use a class selector for delete buttons
+    $('.deletebtn').on('click', function () {
+        var id = $(this).data('id');
+
+        Swal.fire({
+            title: 'Are you sure?',
+            text: 'You won\'t be able to revert this!',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                // User clicked Yes, handle the deletion here
+                window.location.href = '@Url.Action("DeleteCategories", "Admin")' + '?id=' + id;
+            }
+        });
+    });
+</script>

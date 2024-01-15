@@ -1,0 +1,89 @@
+﻿@model FinalProject.Models.CategoryContainer
+
+@{
+    ViewData["Title"] = "UpdateCategoryContainer";
+}
+
+@* <h1>UpdateCategoryContainer</h1>
+
+<h4>CategoryContainer</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="UpdateCategoryContainer">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageFile" class="control-label"></label>
+                <input asp-for="ImageFile" class="form-control" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+ *@
+
+@{
+    Layout = "Admin";
+}
+
+
+<form method="post" enctype="multipart/form-data">
+
+    <div class="border shadow-lg m-4 p-3">
+
+        <div class="row pb-2">
+            <h2 class="text-primary">Update Product</h2>
+            <hr />
+            <div asp-validation-summary="All">
+            </div>
+        </div>
+
+        <div class="row pb-2">
+
+            <div class="col-6">
+                <label asp-for="Name" class="form-label"></label>
+                <input asp-for="Name" type="text" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="col-6">
+                <label asp-for="ImageFile" class="form-label">Category Image</label>
+                <input asp-for="ImageFile" type="file" class="form-control" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+
+        </div>
+        <button type="submit" class="btn btn-primary m-2">Update Collection</button>
+
+        <a asp-action="CategoryContainer" class="btn btn-outline-secondary">Back to List</a>
+
+
+    </div>
+</form>
+
+
+
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

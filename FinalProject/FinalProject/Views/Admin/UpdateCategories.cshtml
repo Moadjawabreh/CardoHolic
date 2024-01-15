@@ -1,0 +1,67 @@
+﻿@model FinalProject.Models.Category
+
+@{
+    Layout = "Admin";
+}
+
+@{
+    ViewData["Title"] = "UpdateCategories";
+}
+
+<h1>UpdateCategories</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-6">
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h4 class="card-title">Category Details</h4>
+                    <hr />
+
+                    <form enctype="multipart/form-data" method="post">
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label">Category Name</label>
+                            <input asp-for="Name" type="text" class="form-control" placeholder="Enter category name" required />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="ImageFile" class="form-label">Category Image</label>
+                            <input asp-for="ImageFile" type="file" class="form-control" accept="image/*" required />
+                            <span asp-validation-for="ImageFile" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="CategoryContainerID" class="control-label"></label>
+                            <select asp-for="CategoryContainerID" class="form-control" asp-items="@(new SelectList(ViewBag.categoryContainersList,"Id","Name"))">
+                                <option value="">Choose Category</option>
+                            </select>
+                            <span asp-validation-for="CategoryContainerID" class="text-danger"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary m-2">Create Category</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+
+
+
+
+

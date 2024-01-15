@@ -1,0 +1,98 @@
+﻿@model IEnumerable<FinalProject.Models.FeedbackForWeb>
+@{
+    Layout = "Admin";
+}
+
+
+@{
+    ViewData["Title"] = "Testimonials";
+}
+
+<div class="container">
+    <h2>Testimonials Approval</h2>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Text)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Status)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.User)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var testimonial in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => testimonial.Text)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => testimonial.Status)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => testimonial.User.Email)
+                    </td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <a class="btn btn-outline-success approvebtn" data-id="@testimonial.ID">Approve</a>
+                            <a class="btn btn-danger deletebtn" data-id="@testimonial.ID">Delete</a>
+
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script>
+    $('.deletebtn').on('click', function () {
+        var id = $(this).data('id');
+
+        Swal.fire({
+            title: 'Are you sure?',
+            text: 'You won\'t be able to revert this!',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                // User clicked Yes, handle the deletion here
+                window.location.href = '@Url.Action("DeleteTestimonials", "Admin")' + '?id=' + id;
+            }
+        });
+    });
+
+
+
+    $('.approvebtn').on('click', function () {
+        var id = $(this).data('id');
+
+        Swal.fire({
+            title: 'Are you sure?',
+            text: 'You won\'t be able to revert this!',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+            confirmButtonText: 'Approve!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                // User clicked Yes, handle the deletion here
+                window.location.href = '@Url.Action("ApproveTestimonials", "Admin")' + '?id=' + id;
+            }
+        });
+    });
+</script>

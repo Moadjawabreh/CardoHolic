@@ -1,0 +1,58 @@
+﻿@model FinalProject.Models.Category
+@{
+    Layout = "Admin";
+}
+
+@{
+    ViewData["Title"] = "CreateCategories";
+}
+
+<form enctype="multipart/form-data" method="post">
+
+    <div class="border shadow-lg m-4 p-3">
+
+        <div class="row pb-2">
+            <h2 class="text-primary">Create Category</h2>
+            <hr />
+            <div asp-validation-summary="All">
+            </div>
+        </div>
+
+        <div class="row pb-2">
+            <div class="col-6">
+                <label asp-for="Name" class="mb-1"></label>
+                <input asp-for="Name" type="text" class="form-control shadow-sm" id="exampleInput" placeholder="Enter something...">
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="col-6">
+                <label asp-for="ImageFile" class="form-label">Category Image</label>
+                <input asp-for="ImageFile" type="file" class="form-control" accept="image/*" required />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+
+
+            <div class="col-12">
+                <label asp-for="CategoryContainerID" class="control-label"></label>
+                <select asp-for="CategoryContainerID" asp-items="ViewBag.categoryContainersList" class="form-select border-0 shadow">
+                    <option disabled selected>Select Category</option>
+                </select>
+            </div>
+
+
+
+        </div>
+        <button type="submit" class="btn btn-primary m-2">Create Category</button>
+
+        <a asp-action="Categories" class="btn btn-outline-secondary">Back to List</a>
+
+
+    </div>
+</form>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,58 @@
+﻿@model FinalProject.Models.SecretCodeForProduct
+
+@{
+    Layout = "Admin";
+}
+
+@{
+    ViewData["Title"] = "CreatCode";
+}
+<form enctype="multipart/form-data" method="post">
+
+    <div class="border shadow-lg m-4 p-3">
+
+        <div class="row pb-2">
+            <h2 class="text-primary">Create Code</h2>
+            <hr />
+            <div asp-validation-summary="All">
+            </div>
+        </div>
+
+        <div class="row pb-2">
+            <div class="col-6">
+                <label asp-for="Code" class="mb-1"></label>
+                <input asp-for="Code" type="text" class="form-control shadow-sm" id="exampleInput" placeholder="Enter something...">
+                <span asp-validation-for="Code" class="text-danger"></span>
+            </div>
+            <div class="col-6">
+                <label asp-for="status" class="mb-1"></label>
+                <input asp-for="status" type="text" class="form-control shadow-sm" id="exampleInput" placeholder="Enter something...">
+                <span asp-validation-for="status" class="text-danger"></span>
+            </div>
+         
+      
+            <div class="col-12">
+                <label asp-for="ProductId" class="control-label"></label>
+                <select asp-for="ProductId" asp-items="ViewBag.ProductsList" class="form-select border-0 shadow">
+                <option disabled selected>Select Product</option>
+                </select>       
+                </div>
+
+        </div>
+        <button type="submit" class="btn btn-primary m-2">Create Code</button>
+
+        <a asp-action="Codes" class="btn btn-outline-secondary">Back to List</a>
+
+
+    </div>
+</form>
+
+
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+

@@ -1,0 +1,304 @@
+﻿@model List<FeedbackForWeb>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+<style>
+	.testimonial-list {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
+		padding: 20px;
+	}
+
+	.testimonial {
+		background-color: #fff;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		margin: 10px;
+		padding: 20px;
+		width: 300px;
+		text-align: center;
+	}
+
+		.testimonial img {
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			object-fit: cover;
+			margin-bottom: 10px;
+		}
+
+		.testimonial h3 {
+			font-size: 18px;
+			margin-bottom: 10px;
+			color: #333;
+		}
+
+		.testimonial p {
+			font-size: 14px;
+			color: #666;
+		}
+</style>
+
+<!-- Title page -->
+<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('@Url.Content("~/customer/images/aboutus.jpg")')">
+	<h2 class="ltext-105 cl0 txt-center">
+		About Us
+	</h2>
+</section>
+
+
+<!-- Cart -->
+<div class="wrap-header-cart js-panel-cart">
+	<div class="s-full js-hide-cart"></div>
+
+	<div class="header-cart flex-col-l p-l-65 p-r-25">
+		<div class="header-cart-title flex-w flex-sb-m p-b-8">
+			<span class="mtext-103 cl2">
+				Your Cart
+			</span>
+
+			<div class="fs-35 lh-10 cl2 p-lr-5 pointer hov-cl1 trans-04 js-hide-cart">
+				<i class="zmdi zmdi-close"></i>
+			</div>
+		</div>
+
+		<div class="header-cart-content flex-w js-pscroll">
+			<ul class="header-cart-wrapitem w-full">
+				<li class="header-cart-item flex-w flex-t m-b-12">
+					<div class="header-cart-item-img">
+						<img src="images/item-cart-01.jpg" alt="IMG">
+					</div>
+
+					<div class="header-cart-item-txt p-t-8">
+						<a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
+							White Shirt Pleat
+						</a>
+
+						<span class="header-cart-item-info">
+							1 x $19.00
+						</span>
+					</div>
+				</li>
+
+				<li class="header-cart-item flex-w flex-t m-b-12">
+					<div class="header-cart-item-img">
+						<img src="images/item-cart-02.jpg" alt="IMG">
+					</div>
+
+					<div class="header-cart-item-txt p-t-8">
+						<a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
+							Converse All Star
+						</a>
+
+						<span class="header-cart-item-info">
+							1 x $39.00
+						</span>
+					</div>
+				</li>
+
+				<li class="header-cart-item flex-w flex-t m-b-12">
+					<div class="header-cart-item-img">
+						<img src="images/item-cart-03.jpg" alt="IMG">
+					</div>
+
+					<div class="header-cart-item-txt p-t-8">
+						<a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
+							Nixon Porter Leather
+						</a>
+
+						<span class="header-cart-item-info">
+							1 x $17.00
+						</span>
+					</div>
+				</li>
+			</ul>
+
+			<div class="w-full">
+				<div class="header-cart-total w-full p-tb-40">
+					Total: $75.00
+				</div>
+
+				<div class="header-cart-buttons flex-w w-full">
+					<a href="shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10">
+						View Cart
+					</a>
+
+					<a href="shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10">
+						Check Out
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Content page -->
+<section class="bg0 p-t-75 p-b-120">
+	<div class="container">
+		<div class="row p-b-148">
+			<div class="col-md-7 col-lg-8">
+				<div class="p-t-7 p-r-85 p-r-15-lg p-r-0-md">
+				
+
+					<p class="stext-113 cl6 p-b-26">
+						Welcome to CardoHolic, your go-to destination for premium game cards and communication cards. Established with a passion for gaming and a commitment to enhancing communication experiences, we take pride in offering a diverse range of products that cater to both entertainment and connectivity needs.
+					</p>
+
+					<h3 class="mtext-111 cl2 p-b-16">
+						Our Story
+					</h3>
+					<p class="stext-113 cl6 p-b-26">
+						At CardoHolic, we believe that gaming is more than just a pastime – it's a way of life. Our journey began with a shared love for immersive gaming experiences and a desire to bring top-notch game cards to fellow enthusiasts. Over time, we expanded our vision to include communication cards, recognizing the importance of seamless connections in today's digital age.
+
+
+					</p>
+
+				
+				</div>
+			</div>
+
+			<div class="col-11 col-md-5 col-lg-4 m-lr-auto">
+				<div class="how-bor1 ">
+					<div class="hov-img0">
+						<img src="images/about-01.jpg" alt="IMG">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="order-md-2 col-md-7 col-lg-8 p-b-30">
+				<div class="p-t-7 p-l-85 p-l-15-lg p-l-0-md">
+					<h3 class="mtext-111 cl2 p-b-16">
+						Our Mission
+					</h3>
+
+					<p class="stext-113 cl6 p-b-26">
+						Empowering connections through gaming and communication is at the core of what we do. Our mission is to provide a platform where enthusiasts can access high-quality game cards and cutting-edge communication solutions, fostering a community that celebrates shared interests and experiences.
+					</p>
+
+					<div class="bor16 p-l-29 p-b-9 m-t-22">
+						<p class="stext-114 cl6 p-r-40 p-b-11">
+							Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn't really do it, they just saw something. It seemed obvious to them after a while.
+						</p>
+
+						<span class="stext-111 cl8">
+							- Steve Job’s
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="order-md-1 col-11 col-md-5 col-lg-4 m-lr-auto p-b-30">
+				<div class="how-bor2">
+					<div class="hov-img0">
+						<img src="~/customer/images/our.jpg" alt="IMG">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="sec-relate-product bg0 p-t-45 p-b-105">
+	<div class="container">
+		<div class="p-b-45">
+		</div>
+
+		<!-- Slide2 -->
+		<div id="product-slider" class="wrap-slick2">
+			<div class="slick2">
+				@foreach (var item in Model)
+				{
+					<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+						<!-- Block2 -->
+						<div class="block2">
+							<div class="block2-pic hov-img0">
+								<div style="width: 150px; height: 150px; overflow: hidden; border-radius: 50%; margin-bottom: 10px; position: relative;">
+									<div style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 50%;">
+										<img style="width: 100%; height: 100%; object-fit: cover;" src="@Url.Content(item.User.ImageUrl)" alt="IMG-PRODUCT">
+									</div>
+								</div>
+								
+							</div>
+
+							<div class="block2-txt flex-w flex-t p-t-14">
+								<div class="block2-txt-child1 flex-col-l ">
+									<p  class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+										<b>@item.User.Name</b>
+									</p>
+									<span class="stext-105 cl3">
+										@item.Text
+									</span>
+								</div>
+
+								<div class="block2-txt-child2 flex-r p-t-3">
+									<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+										
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				}
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+<div class="container" style="display: flex; align-items: center; justify-content: center; min-height: 100vh;">
+	<div style="border-radius:10px" class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
+		<form method="post" asp-action="AddFeedBackForWeb">
+			<h4 class="mtext-105 cl2 txt-center p-b-30">
+				Send Us Your FeedBack
+			</h4>
+
+			@* <div class="bor8 m-b-20 how-pos4-parent">
+				<input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" name="email" placeholder="Your Email Address">
+				<img class="how-pos4 pointer-none" src="images/icons/icon-email.png" alt="ICON">
+			</div> *@
+
+			<div class="bor8 m-b-30">
+				<textarea class="stext-111 cl2 plh3 size-120 p-lr-28 p-tb-25" name="msg" placeholder="How Can We Help?"></textarea>
+			</div>
+
+			<button class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer">
+				Submit
+			</button>
+		</form>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<!-- Include Owl Carousel CSS and JavaScript files -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!-- Initialize Owl Carousel -->
+<script>
+	$(document).ready(function () {
+		$(".testimonial-list").owlCarousel({
+			items: 1,
+			loop: true,
+			margin: 10,
+			nav: true,
+			dots: true,
+			// Add more options if needed
+		});
+	});
+</script>
+
+

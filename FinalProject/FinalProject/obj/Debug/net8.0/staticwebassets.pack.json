@@ -1,0 +1,2369 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FinalProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FinalProject.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\js\\main.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\chart\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\Admin\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Admin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\css\\main.css",
+      "PackagePath": "staticwebassets\\Customer\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\css\\util.css",
+      "PackagePath": "staticwebassets\\Customer\\css\\util.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Montserrat\\Montserrat-Black.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Montserrat\\Montserrat-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Montserrat\\Montserrat-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Montserrat\\Montserrat-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Montserrat\\Montserrat-Bold.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Montserrat\\Montserrat-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Montserrat\\Montserrat-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Montserrat\\Montserrat-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Montserrat\\Montserrat-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Montserrat\\Montserrat-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Montserrat\\Montserrat-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Montserrat\\Montserrat-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Montserrat\\Montserrat-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Montserrat\\Montserrat-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Montserrat\\Montserrat-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Montserrat\\Montserrat-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Montserrat\\Montserrat-Italic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Montserrat\\Montserrat-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Montserrat\\Montserrat-Light.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Montserrat\\Montserrat-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Montserrat\\Montserrat-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Montserrat\\Montserrat-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Montserrat\\Montserrat-Medium.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Montserrat\\Montserrat-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Montserrat\\Montserrat-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Montserrat\\Montserrat-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Montserrat\\Montserrat-Regular.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Montserrat\\Montserrat-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Montserrat\\Montserrat-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Montserrat\\Montserrat-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Montserrat\\Montserrat-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Montserrat\\Montserrat-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Montserrat\\Montserrat-Thin.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Montserrat\\Montserrat-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Montserrat\\Montserrat-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Montserrat\\Montserrat-ThinItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Montserrat\\OFL.txt",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Montserrat\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\PlayfairDisplay\\OFL.txt",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\PlayfairDisplay\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\PlayfairDisplay\\PlayfairDisplay-Black.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\PlayfairDisplay\\PlayfairDisplay-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\PlayfairDisplay\\PlayfairDisplay-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\PlayfairDisplay\\PlayfairDisplay-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\PlayfairDisplay\\PlayfairDisplay-Bold.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\PlayfairDisplay\\PlayfairDisplay-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\PlayfairDisplay\\PlayfairDisplay-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\PlayfairDisplay\\PlayfairDisplay-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\PlayfairDisplay\\PlayfairDisplay-Italic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\PlayfairDisplay\\PlayfairDisplay-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\PlayfairDisplay\\PlayfairDisplay-Regular.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\PlayfairDisplay\\PlayfairDisplay-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Poppins\\Poppins-Black.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Poppins\\Poppins-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Poppins\\Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Poppins\\Poppins-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Poppins\\Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Poppins\\Poppins-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Poppins\\Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Poppins\\Poppins-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Poppins\\Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Poppins\\Poppins-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Poppins\\Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Poppins\\Poppins-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Poppins\\Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Poppins\\Poppins-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Poppins\\Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Poppins\\Poppins-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Poppins\\Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Poppins\\Poppins-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Poppins\\Poppins-Light.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Poppins\\Poppins-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Poppins\\Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Poppins\\Poppins-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Poppins\\Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Poppins\\Poppins-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Poppins\\Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Poppins\\Poppins-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Poppins\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Poppins\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Poppins\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Poppins\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Poppins\\Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Poppins\\Poppins-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Poppins\\Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Poppins\\Poppins-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\Poppins\\Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\Poppins\\Poppins-ThinItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\less\\animated.less",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\less\\animated.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\less\\core.less",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\less\\core.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\less\\icons.less",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\less\\icons.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\less\\larger.less",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\less\\larger.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\less\\list.less",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\less\\list.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\less\\mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\less\\path.less",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\less\\path.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\less\\stacked.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\less\\variables.less",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_core.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_list.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_path.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\iconic\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\iconic\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\iconic\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\iconic\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.eot",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.eot"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.svg",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.ttf",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.woff",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.woff"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\fonts\\linearicons-v1.0.0\\icon-font.min.css",
+      "PackagePath": "staticwebassets\\Customer\\fonts\\linearicons-v1.0.0\\icon-font.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\AboutUs.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\AboutUs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\CardoHolic.png",
+      "PackagePath": "staticwebassets\\Customer\\images\\CardoHolic.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\SliderApp.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\SliderApp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\about-01.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\about-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\about-02.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\about-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\avatar-01.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\avatar-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\backgames.jpeg",
+      "PackagePath": "staticwebassets\\Customer\\images\\backgames.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\backgames2.jpeg",
+      "PackagePath": "staticwebassets\\Customer\\images\\backgames2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\backgames3.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\backgames3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\banner-01.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\banner-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\banner-02.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\banner-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\banner-03.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\banner-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\banner-04.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\banner-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\banner-05.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\banner-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\banner-06.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\banner-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\banner-07.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\banner-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\banner-08.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\banner-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\banner-09.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\banner-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\bg-01.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\bg-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\bg-02.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\bg-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\blog-01.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\blog-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\blog-02.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\blog-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\blog-03.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\blog-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\blog-04.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\blog-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\blog-05.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\blog-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\blog-06.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\blog-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\communicationbackground.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\communicationbackground.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\file.jpeg",
+      "PackagePath": "staticwebassets\\Customer\\images\\file.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\gallery-01.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\gallery-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\gallery-02.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\gallery-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\gallery-03.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\gallery-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\gallery-04.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\gallery-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\gallery-05.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\gallery-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\gallery-06.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\gallery-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\gallery-07.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\gallery-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\gallery-08.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\gallery-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\gallery-09.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\gallery-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\icons\\favicon.png",
+      "PackagePath": "staticwebassets\\Customer\\images\\icons\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\icons\\icon-close.png",
+      "PackagePath": "staticwebassets\\Customer\\images\\icons\\icon-close.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\icons\\icon-close2.png",
+      "PackagePath": "staticwebassets\\Customer\\images\\icons\\icon-close2.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\icons\\icon-email.png",
+      "PackagePath": "staticwebassets\\Customer\\images\\icons\\icon-email.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\icons\\icon-heart-01.png",
+      "PackagePath": "staticwebassets\\Customer\\images\\icons\\icon-heart-01.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\icons\\icon-heart-02.png",
+      "PackagePath": "staticwebassets\\Customer\\images\\icons\\icon-heart-02.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\icons\\icon-next.png",
+      "PackagePath": "staticwebassets\\Customer\\images\\icons\\icon-next.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\icons\\icon-pay-01.png",
+      "PackagePath": "staticwebassets\\Customer\\images\\icons\\icon-pay-01.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\icons\\icon-pay-02.png",
+      "PackagePath": "staticwebassets\\Customer\\images\\icons\\icon-pay-02.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\icons\\icon-pay-03.png",
+      "PackagePath": "staticwebassets\\Customer\\images\\icons\\icon-pay-03.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\icons\\icon-pay-04.png",
+      "PackagePath": "staticwebassets\\Customer\\images\\icons\\icon-pay-04.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\icons\\icon-pay-05.png",
+      "PackagePath": "staticwebassets\\Customer\\images\\icons\\icon-pay-05.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\icons\\icon-prev.png",
+      "PackagePath": "staticwebassets\\Customer\\images\\icons\\icon-prev.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\icons\\logo-01.png",
+      "PackagePath": "staticwebassets\\Customer\\images\\icons\\logo-01.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\icons\\logo-02.png",
+      "PackagePath": "staticwebassets\\Customer\\images\\icons\\logo-02.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\icons\\pin.png",
+      "PackagePath": "staticwebassets\\Customer\\images\\icons\\pin.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\item-cart-01.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\item-cart-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\item-cart-02.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\item-cart-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\item-cart-03.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\item-cart-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\item-cart-04.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\item-cart-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\item-cart-05.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\item-cart-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\our.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\our.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-01.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-02.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-03.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-04.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-05.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-06.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-07.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-08.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-09.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-10.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-11.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-12.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-13.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-14.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-15.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-16.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-detail-01.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-detail-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-detail-02.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-detail-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-detail-03.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-detail-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-min-01.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-min-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-min-02.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-min-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\product-min-03.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\product-min-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\slide-01.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\slide-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\slide-02.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\slide-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\slide-03.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\slide-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\slide-04.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\slide-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\slide-05.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\slide-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\slide-06.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\slide-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\slide-07.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\slide-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\thumb-01.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\thumb-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\thumb-02.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\thumb-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\images\\thumb-03.jpg",
+      "PackagePath": "staticwebassets\\Customer\\images\\thumb-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\js\\main.js",
+      "PackagePath": "staticwebassets\\Customer\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\js\\map-custom.js",
+      "PackagePath": "staticwebassets\\Customer\\js\\map-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\js\\slick-custom.js",
+      "PackagePath": "staticwebassets\\Customer\\js\\slick-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\MagnificPopup\\jquery.magnific-popup.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\MagnificPopup\\jquery.magnific-popup.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\MagnificPopup\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\MagnificPopup\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\MagnificPopup\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\MagnificPopup\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\animsition\\css\\animsition.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\animsition\\css\\animsition.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\animsition\\css\\animsition.min.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\animsition\\css\\animsition.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\animsition\\js\\animsition.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\animsition\\js\\animsition.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\animsition\\js\\animsition.min.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\animsition\\js\\animsition.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\bootstrap\\js\\popper.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\bootstrap\\js\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\bootstrap\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\bootstrap\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\bootstrap\\js\\tooltip.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\bootstrap\\js\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\countdowntime\\countdowntime.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\countdowntime\\countdowntime.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\css-hamburgers\\hamburgers.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\css-hamburgers\\hamburgers.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\css-hamburgers\\hamburgers.min.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\css-hamburgers\\hamburgers.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\daterangepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\daterangepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\daterangepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\daterangepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\daterangepicker\\moment.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\daterangepicker\\moment.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\daterangepicker\\moment.min.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\daterangepicker\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\isotope\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\isotope\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\jquery\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\jquery\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\jqueryui\\external\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\jqueryui\\external\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\jqueryui\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\jqueryui\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\jqueryui\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\jqueryui\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\jqueryui\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\jqueryui\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\jqueryui\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\jqueryui\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\jqueryui\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\jqueryui\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\jqueryui\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\jqueryui\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\jqueryui\\index.html",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\jqueryui\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\jqueryui\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\jqueryui\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\jqueryui\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\jqueryui\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\jqueryui\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\jqueryui\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\jqueryui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\jqueryui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\jqueryui\\jquery-ui.structure.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\jqueryui\\jquery-ui.structure.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\jqueryui\\jquery-ui.structure.min.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\jqueryui\\jquery-ui.structure.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\jqueryui\\jquery-ui.theme.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\jqueryui\\jquery-ui.theme.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\jqueryui\\jquery-ui.theme.min.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\jqueryui\\jquery-ui.theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\lightbox2\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\lightbox2\\css\\lightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\lightbox2\\css\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\lightbox2\\css\\lightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\lightbox2\\images\\close.png",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\lightbox2\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\lightbox2\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\lightbox2\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\lightbox2\\images\\next.png",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\lightbox2\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\lightbox2\\images\\prev.png",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\lightbox2\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\lightbox2\\js\\lightbox-plus-jquery.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\lightbox2\\js\\lightbox-plus-jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\lightbox2\\js\\lightbox-plus-jquery.min.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\lightbox2\\js\\lightbox-plus-jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\lightbox2\\js\\lightbox-plus-jquery.min.map",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\lightbox2\\js\\lightbox-plus-jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\lightbox2\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\lightbox2\\js\\lightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\lightbox2\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\lightbox2\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\lightbox2\\js\\lightbox.min.map",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\lightbox2\\js\\lightbox.min.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\parallax100\\parallax100.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\parallax100\\parallax100.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\select2\\select2.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\select2\\select2.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\select2\\select2.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\select2\\select2.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\select2\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\select2\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\slick\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\slick\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\slick\\config.rb",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\slick\\config.rb"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\slick\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\slick\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\slick\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\slick\\fonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\slick\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\slick\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\slick\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\slick\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\slick\\slick-theme.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\slick\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\slick\\slick-theme.less",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\slick\\slick-theme.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\slick\\slick-theme.scss",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\slick\\slick-theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\slick\\slick.css",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\slick\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\slick\\slick.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\slick\\slick.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\slick\\slick.less",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\slick\\slick.less"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\slick\\slick.min.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\slick\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\slick\\slick.scss",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\slick\\slick.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Customer\\vendor\\sweetalert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\Customer\\vendor\\sweetalert\\sweetalert.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\02d57c25-acde-4551-bf16-8735269e4257our.jpg",
+      "PackagePath": "staticwebassets\\Images\\02d57c25-acde-4551-bf16-8735269e4257our.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\05347317-1d48-41ab-a1a8-d3626a52bf2abackgames3.jpg",
+      "PackagePath": "staticwebassets\\Images\\05347317-1d48-41ab-a1a8-d3626a52bf2abackgames3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\087911d5-0c86-410b-ace6-c11a24fe14a4backgames3.jpg",
+      "PackagePath": "staticwebassets\\Images\\087911d5-0c86-410b-ace6-c11a24fe14a4backgames3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\09c9b088-eecd-4689-9a12-e00da5c58e1bbackgames3.jpg",
+      "PackagePath": "staticwebassets\\Images\\09c9b088-eecd-4689-9a12-e00da5c58e1bbackgames3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\14c7ff9e-242b-4dce-ac00-9be41428c6f4backgames3.jpg",
+      "PackagePath": "staticwebassets\\Images\\14c7ff9e-242b-4dce-ac00-9be41428c6f4backgames3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\1759c56a-7178-46c0-a37e-f930c5046daePremium Vector _ Ace of spade playing card design inspired from barong bali.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1759c56a-7178-46c0-a37e-f930c5046daePremium Vector _ Ace of spade playing card design inspired from barong bali.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\1c3dfc60-5f1d-4c06-8ae7-40846edd608f407192.jpg",
+      "PackagePath": "staticwebassets\\Images\\1c3dfc60-5f1d-4c06-8ae7-40846edd608f407192.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\2074f1b1-41bd-4c02-acb7-6b935114cf68backgames.jpeg",
+      "PackagePath": "staticwebassets\\Images\\2074f1b1-41bd-4c02-acb7-6b935114cf68backgames.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\293532c2-b296-4129-9539-dc74b6b399a3backgames3.jpg",
+      "PackagePath": "staticwebassets\\Images\\293532c2-b296-4129-9539-dc74b6b399a3backgames3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\2c1a227f-7733-45e0-b4e2-52c69c43b333AboutUs.jpg",
+      "PackagePath": "staticwebassets\\Images\\2c1a227f-7733-45e0-b4e2-52c69c43b333AboutUs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\2d1c32ee-d618-4276-9691-9f4e20613281backgames2.jpeg",
+      "PackagePath": "staticwebassets\\Images\\2d1c32ee-d618-4276-9691-9f4e20613281backgames2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\3688914b-2e79-45eb-b6b8-a55176dbb27bpexels-antoni-shkraba-5810690.jpg",
+      "PackagePath": "staticwebassets\\Images\\3688914b-2e79-45eb-b6b8-a55176dbb27bpexels-antoni-shkraba-5810690.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\3ebec449-1627-4ac3-b21a-71cc5b7afd49pexels-antoni-shkraba-5810690.jpg",
+      "PackagePath": "staticwebassets\\Images\\3ebec449-1627-4ac3-b21a-71cc5b7afd49pexels-antoni-shkraba-5810690.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\441b9696-dd0a-40a1-ab35-6ecd6d5767cc407192.jpg",
+      "PackagePath": "staticwebassets\\Images\\441b9696-dd0a-40a1-ab35-6ecd6d5767cc407192.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\48717650-290b-4758-93da-86e566162038pexels-antoni-shkraba-5810690.jpg",
+      "PackagePath": "staticwebassets\\Images\\48717650-290b-4758-93da-86e566162038pexels-antoni-shkraba-5810690.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\48a1cbf3-5b1e-4250-8f2d-0602a4196584backgames3.jpg",
+      "PackagePath": "staticwebassets\\Images\\48a1cbf3-5b1e-4250-8f2d-0602a4196584backgames3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\5acb407c-9a8f-4b9b-8eda-db67453111acAboutUs.jpg",
+      "PackagePath": "staticwebassets\\Images\\5acb407c-9a8f-4b9b-8eda-db67453111acAboutUs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\689dac5b-d072-451e-9c3f-9bfc72db247cUm cartão em chamas com as palavras ás nele _ Foto Premium.jpeg",
+      "PackagePath": "staticwebassets\\Images\\689dac5b-d072-451e-9c3f-9bfc72db247cUm cartão em chamas com as palavras ás nele _ Foto Premium.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\694d179b-66dd-4ec2-8695-9ef907ddf05d407192.jpg",
+      "PackagePath": "staticwebassets\\Images\\694d179b-66dd-4ec2-8695-9ef907ddf05d407192.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\6a266a43-5611-46ba-bacd-fa7c4a00527c407192.jpg",
+      "PackagePath": "staticwebassets\\Images\\6a266a43-5611-46ba-bacd-fa7c4a00527c407192.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\6f99baf7-c372-4cd1-ae59-e60d1c9bbe83backgames3.jpg",
+      "PackagePath": "staticwebassets\\Images\\6f99baf7-c372-4cd1-ae59-e60d1c9bbe83backgames3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\7e238cdd-783b-4d2a-9ce6-0e1903d73096407192.jpg",
+      "PackagePath": "staticwebassets\\Images\\7e238cdd-783b-4d2a-9ce6-0e1903d73096407192.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\8ad0c1ce-ef2e-4a3b-9900-68285ed02854407192.jpg",
+      "PackagePath": "staticwebassets\\Images\\8ad0c1ce-ef2e-4a3b-9900-68285ed02854407192.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\8c43f414-5448-437b-939a-83ff77e951febackgames.jpeg",
+      "PackagePath": "staticwebassets\\Images\\8c43f414-5448-437b-939a-83ff77e951febackgames.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\98248b57-c3f3-4334-8e78-ee5a10582098backgames2.jpeg",
+      "PackagePath": "staticwebassets\\Images\\98248b57-c3f3-4334-8e78-ee5a10582098backgames2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\a222eeca-dd76-40d9-9298-4851786f9dcdbackgames2.jpeg",
+      "PackagePath": "staticwebassets\\Images\\a222eeca-dd76-40d9-9298-4851786f9dcdbackgames2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\a84b31a4-7846-40c9-bd56-4c9bcebdb6dfpexels-antoni-shkraba-5810690.jpg",
+      "PackagePath": "staticwebassets\\Images\\a84b31a4-7846-40c9-bd56-4c9bcebdb6dfpexels-antoni-shkraba-5810690.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\a924e42f-27cd-4011-80c2-d8f22820895dbackgames3.jpg",
+      "PackagePath": "staticwebassets\\Images\\a924e42f-27cd-4011-80c2-d8f22820895dbackgames3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\b0143cde-98bd-4948-ab60-ba52a9541f57407192.jpg",
+      "PackagePath": "staticwebassets\\Images\\b0143cde-98bd-4948-ab60-ba52a9541f57407192.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\b743ac3b-9fa9-4cb0-ac4e-173a93fc87efour.jpg",
+      "PackagePath": "staticwebassets\\Images\\b743ac3b-9fa9-4cb0-ac4e-173a93fc87efour.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\b7a5a989-06f0-4ffe-998d-47f9662c6437407192.jpg",
+      "PackagePath": "staticwebassets\\Images\\b7a5a989-06f0-4ffe-998d-47f9662c6437407192.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\c048d4e9-bd1b-48fe-820c-70216221f946pexels-antoni-shkraba-5810690.jpg",
+      "PackagePath": "staticwebassets\\Images\\c048d4e9-bd1b-48fe-820c-70216221f946pexels-antoni-shkraba-5810690.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\cd3708a1-6134-4563-8a88-98d4676a427b407192.jpg",
+      "PackagePath": "staticwebassets\\Images\\cd3708a1-6134-4563-8a88-98d4676a427b407192.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\d7d6010f-4681-4acb-a8dd-5824d365dcd3pexels-antoni-shkraba-5810690.jpg",
+      "PackagePath": "staticwebassets\\Images\\d7d6010f-4681-4acb-a8dd-5824d365dcd3pexels-antoni-shkraba-5810690.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\ddca422b-f794-4f11-b5fe-72f9d3b576dbbackgames.jpeg",
+      "PackagePath": "staticwebassets\\Images\\ddca422b-f794-4f11-b5fe-72f9d3b576dbbackgames.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\ec373c7b-78bf-4ec9-97bf-15eb2a6d4ebcPremium Vector _ Ace of spade playing card design inspired from barong bali.jpeg",
+      "PackagePath": "staticwebassets\\Images\\ec373c7b-78bf-4ec9-97bf-15eb2a6d4ebcPremium Vector _ Ace of spade playing card design inspired from barong bali.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\f0e110e9-4b95-4642-9c41-2a61866546a9backgames3.jpg",
+      "PackagePath": "staticwebassets\\Images\\f0e110e9-4b95-4642-9c41-2a61866546a9backgames3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\Images\\f9c21639-dd84-4ea1-9020-915ed655fba7backgames3.jpg",
+      "PackagePath": "staticwebassets\\Images\\f9c21639-dd84-4ea1-9020-915ed655fba7backgames3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\css\\bootstrap\\_media.css",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\css\\bootstrap\\_media.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\css\\bootstrap\\mixins\\_border-radius.css",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\css\\bootstrap\\mixins\\_border-radius.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\css\\bootstrap\\mixins\\_screen-reader.css",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\css\\bootstrap\\mixins\\_screen-reader.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\css\\bootstrap\\mixins\\_transition.css",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\css\\bootstrap\\mixins\\_transition.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\css\\bootstrap\\mixins\\_visibility.css",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\css\\bootstrap\\mixins\\_visibility.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\css\\bootstrap\\utilities\\_stretched-link.css",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\css\\bootstrap\\utilities\\_stretched-link.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\css\\style.css",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\images\\Background.jpeg",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\images\\Background.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\images\\Card.jpeg",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\images\\Card.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\js\\main.js",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\js\\popper.js",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\js\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_code.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_code.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_custom-forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_input-group.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_jumbotron.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_media.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_media.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_print.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_print.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_size.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_align.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_display.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_text.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\LoginAndRegister\\LoginAssets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegister\\LoginAssets\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinalProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FinalProject.props",
+      "PackagePath": "build\\FinalProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FinalProject.props",
+      "PackagePath": "buildMultiTargeting\\FinalProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FinalProject.props",
+      "PackagePath": "buildTransitive\\FinalProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

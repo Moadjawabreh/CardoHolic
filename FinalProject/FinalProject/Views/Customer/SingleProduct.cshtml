@@ -1,0 +1,704 @@
+﻿@model Product
+@using Newtonsoft.Json
+
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.8.1/slick.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.8.1/slick-theme.css" />
+
+<!-- Cart -->
+<div class="wrap-header-cart js-panel-cart">
+	<div class="s-full js-hide-cart"></div>
+
+	<div class="header-cart flex-col-l p-l-65 p-r-25">
+		<div class="header-cart-title flex-w flex-sb-m p-b-8">
+			<span class="mtext-103 cl2">
+				Your Cart
+			</span>
+
+			<div class="fs-35 lh-10 cl2 p-lr-5 pointer hov-cl1 trans-04 js-hide-cart">
+				<i class="zmdi zmdi-close"></i>
+			</div>
+		</div>
+
+		<div class="header-cart-content flex-w js-pscroll">
+			<ul class="header-cart-wrapitem w-full">
+				<li class="header-cart-item flex-w flex-t m-b-12">
+					<div class="header-cart-item-img">
+						<img src="~/Customer/images/item-cart-01.jpg" alt="IMG">
+					</div>
+
+					<div class="header-cart-item-txt p-t-8">
+						<a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
+							White Shirt Pleat
+						</a>
+
+						<span class="header-cart-item-info">
+							1 x $19.00
+						</span>
+					</div>
+				</li>
+
+				<li class="header-cart-item flex-w flex-t m-b-12">
+					<div class="header-cart-item-img">
+						<img src="~/Customer/images/item-cart-02.jpg" alt="IMG">
+					</div>
+
+					<div class="header-cart-item-txt p-t-8">
+						<a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
+							Converse All Star
+						</a>
+
+						<span class="header-cart-item-info">
+							1 x $39.00
+						</span>
+					</div>
+				</li>
+
+				<li class="header-cart-item flex-w flex-t m-b-12">
+					<div class="header-cart-item-img">
+						<img src="~/Customer/images/item-cart-03.jpg" alt="IMG">
+					</div>
+
+					<div class="header-cart-item-txt p-t-8">
+						<a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
+							Nixon Porter Leather
+						</a>
+
+						<span class="header-cart-item-info">
+							1 x $17.00
+						</span>
+					</div>
+				</li>
+			</ul>
+
+			<div class="w-full">
+				<div class="header-cart-total w-full p-tb-40">
+					Total: $75.00
+				</div>
+
+				<div class="header-cart-buttons flex-w w-full">
+					<a href="shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10">
+						View Cart
+					</a>
+
+					<a href="shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10">
+						Check Out
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- breadcrumb -->
+<div class="container">
+	<div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
+		<a asp-action="Index" class="stext-109 cl8 hov-cl1 trans-04">
+			Home
+			<i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
+		</a>
+
+
+
+		@* 	<form id="postProductsForm" method="post" asp-action="Products" asp-controller="Customer">
+		<input type="hidden" name="IdForContainerCategory" id="categoryContainerId" />
+		<input type="hidden" name="IdForCategory" id="categoryId" />
+		</form>
+
+		<a href="javascript:void(0);" onclick="submitProductsForm();" class="stext-109 cl8 hov-cl1 trans-04">
+		<!-- Link Text -->
+		@Model.Category.Name
+		<i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
+		</a> *@
+
+		<a href="javascript:void(0);" onclick="submitProductsForm(@Model.Category.ID, @Model.Category.CategoryContainer.Id);" class="stext-109 cl8 hov-cl1 trans-04">
+			<!-- Link Text -->
+			@Model.Category.Name
+			<i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
+		</a>
+
+
+
+
+
+
+		<form id="postProductsForm" method="post" asp-action="Products" asp-controller="Customer">
+			<input type="hidden" name="IdForContainerCategory" id="categoryContainerId" />
+			<input type="hidden" name="IdForCategory" id="categoryId" />
+		</form>
+
+		<span class="stext-109 cl4">
+			@Model.Name
+		</span>
+	</div>
+</div>
+
+
+<!-- Product Detail -->
+<section class="sec-product-detail bg0 p-t-65 p-b-60">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-lg-7 p-b-30">
+				<div class="p-l-25 p-r-30 p-lr-0-lg">
+					<div class="wrap-slick3 flex-sb flex-w">
+
+						<div class="slick3 gallery-lb">
+							<div class="item-slick3" data-thumb="~/Customer/images/product-detail-01.jpg">
+								<div class="wrap-pic-w pos-relative">
+									<img src="@Url.Content(Model.UrlImage)" alt="IMG-PRODUCT">
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6 col-lg-5 p-b-30">
+				<div class="p-r-50 p-t-5 p-lr-0-lg">
+					<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+						@Model.Name
+					</h4>
+
+					@{
+						var total = Model.Price * (1 - Model.percentageOfDiscount);
+					}
+
+					<span class="mtext-106 cl2">
+						$@total.ToString("0.00")
+					</span>
+
+
+					<p class="stext-102 cl3 p-t-23">
+						@Model.Description
+					</p>
+
+					<!--  -->
+					<div class="p-t-33">
+
+
+						<div class="flex-w flex-r-m p-b-10">
+							<div class="size-204 flex-w flex-m respon6-next">
+								<div class="wrap-num-product flex-w m-r-20 m-tb-10">
+									<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+										<i class="fs-16 zmdi zmdi-minus"></i>
+									</div>
+
+									<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" id="quantityInput" value="1">
+
+									<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+										<i class="fs-16 zmdi zmdi-plus"></i>
+									</div>
+								</div>
+
+								<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 " onclick="addToCart()">
+									Add to cart
+								</button>
+
+
+								@{
+									TempData["SingleProductUrl"] = Url.Action("SingleProduct", "Customer", new { id = Model.ID });
+								}
+
+								<div id="errorMessage" class="alert alert-danger" style="display: none;"></div>
+
+							</div>
+						</div>
+					</div>
+
+					<!--  -->
+				</div>
+			</div>
+		</div>
+
+		<div class="bor10 m-t-50 p-t-43 p-b-40">
+			<!-- Tab01 -->
+			<div class="tab01">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="nav-item p-b-10">
+						<a class="nav-link active" data-toggle="tab" href="#description" role="tab">Description</a>
+					</li>
+
+
+					<li class="nav-item p-b-10">
+						<a class="nav-link" data-toggle="tab" href="#reviews" role="tab">Reviews (1)</a>
+					</li>
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content p-t-43">
+					<!-- - -->
+					<div class="tab-pane fade show active" id="description" role="tabpanel">
+						<div class="how-pos2 p-lr-15-md">
+							<p class="stext-102 cl6">
+								Aenean sit amet gravida nisi. Nam fermentum est felis, quis feugiat nunc fringilla sit amet. Ut in blandit ipsum. Quisque luctus dui at ante aliquet, in hendrerit lectus interdum. Morbi elementum sapien rhoncus pretium maximus. Nulla lectus enim, cursus et elementum sed, sodales vitae eros. Ut ex quam, porta consequat interdum in, faucibus eu velit. Quisque rhoncus ex ac libero varius molestie. Aenean tempor sit amet orci nec iaculis. Cras sit amet nulla libero. Curabitur dignissim, nunc nec laoreet consequat, purus nunc porta lacus, vel efficitur tellus augue in ipsum. Cras in arcu sed metus rutrum iaculis. Nulla non tempor erat. Duis in egestas nunc.
+							</p>
+						</div>
+					</div>
+
+					<!-- - -->
+					<!-- - -->
+					<div class="tab-pane fade" id="reviews" role="tabpanel">
+						<div class="row">
+							<div class="col-sm-10 col-md-8 col-lg-6 m-lr-auto">
+								<div class="p-b-30 m-lr-15-sm">
+									<!-- Review -->
+
+
+									<div id="review-slider" class="wrap-slick2">
+
+										@{
+											var x = 1;
+										}
+										@foreach (var item in Model.FeedbackForProducts)
+										{
+
+											<div class="flex-w flex-t p-b-68">
+												<div class="wrap-pic-s size-109 bor0 of-hidden m-r-18 m-t-6">
+													<img src="@Url.Content(item.User.ImageUrl)" alt="AVATAR">
+												</div>
+
+												<div class="size-207">
+													<div class="flex-w flex-sb-m p-b-17">
+														<span class="mtext-107 cl2 p-r-20">
+															@item.User.Name
+														</span>
+
+														<span class="fs-18 cl11">
+															<i class="zmdi zmdi-star"></i>
+															<i class="zmdi zmdi-star"></i>
+															<i class="zmdi zmdi-star"></i>
+															<i class="zmdi zmdi-star"></i>
+															<i class="zmdi zmdi-star-half"></i>
+														</span>
+													</div>
+
+													<p class="stext-102 cl6">
+														Quod autem in homine praestantissimum atque optimum est, id deseruit. Apud ceteros autem philosophos
+													</p>
+												</div>
+											</div>
+
+										}
+
+									</div>
+
+
+
+
+									<!-- Add review -->
+									<form method="post" asp-action="AddReviewForProduct" class="w-full">
+										<h5 class="mtext-108 cl2 p-b-7">
+											Add a review
+										</h5>
+
+										<p class="stext-102 cl6">
+											Your email address will not be published. Required fields are marked *
+										</p>
+
+										<div class="flex-w flex-m p-t-50 p-b-23">
+											<span class="stext-102 cl3 m-r-16">
+												Your Rating
+											</span>
+
+
+										</div>
+
+										<div class="row p-b-25">
+											<div class="col-12 p-b-5">
+												<input name="id" value="@Model.ID" hidden />
+												<label class="stext-102 cl3" for="review">Your review</label>
+												<textarea name="reviewInput" class="size-110 bor8 stext-102 cl2 p-lr-20 p-tb-10" id="review"></textarea>
+											</div>
+
+										</div>
+
+										<button class="flex-c-m stext-101 cl0 size-112 bg7 bor11 hov-btn3 p-lr-15 trans-04 m-b-10">
+											Submit
+										</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+<!-- Related Products -->
+<section class="sec-relate-product bg0 p-t-45 p-b-105">
+	<div class="container">
+		<div class="p-b-45">
+			<h3 class="ltext-106 cl5 txt-center">
+				Related Products
+			</h3>
+		</div>
+
+		<!-- Slide2 -->
+		<div id="product-slider" class="wrap-slick2">
+			<div class="slick2">
+				@foreach (var item in (List<Product>)(ViewBag.RelatedProducts))
+				{
+					@if (item.ID == Model.ID)
+					{
+						continue;
+					}
+					else
+					{
+						<div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
+							<!-- Block2 -->
+							<div class="block2">
+								<div class="block2-pic hov-img0">
+									@if (item.percentageOfDiscount < 1)
+									{
+										var result = item.percentageOfDiscount * 100;
+										<div class="block2-pic hov-img0 label-new" data-label="%@result">
+
+											<img src="@Url.Content(item.UrlImage)" alt="IMG-PRODUCT">
+										</div>
+									}
+									else
+									{
+										<div class="block2-pic hov-img0 label-new" data-label="">
+
+											<img src="@Url.Content(item.UrlImage)" alt="IMG-PRODUCT">
+										</div>
+									}
+									<a asp-controller="Customer" asp-action="SingleProduct" asp-route-id="@item.ID" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 ">
+										Quick View
+									</a>
+								</div>
+
+								<div class="block2-txt flex-w flex-t p-t-14">
+									<div class="block2-txt-child1 flex-col-l ">
+										<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+											@item.Name
+										</a>
+										@if (item.percentageOfDiscount == 1)
+										{
+											<span class="stext-105 cl3">
+												$@item.Price.ToString("0.00")
+											</span>
+										}
+										else
+										{
+
+											var discountedPrice = item.Price * (1 - item.percentageOfDiscount);
+											var formattedDiscountedPrice = discountedPrice.ToString("0.00");
+
+
+											<span class="stext-105 cl3">
+												$@formattedDiscountedPrice
+											</span>
+										}
+
+									</div>
+
+									<div class="block2-txt-child2 flex-r p-t-3">
+										<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					}
+				}
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<script>
+	function submitProductsForm(categoryId, containerCategoryId) {
+		document.getElementById('categoryContainerId').value = containerCategoryId;
+		document.getElementById('categoryId').value = categoryId;
+		document.getElementById('postProductsForm').submit();
+	}
+</script>
+
+@*
+<script>
+	function submitProductsForm() {
+		var IdForContainerCategory = @Model.Category.CategoryContainer.Id;
+		var IdForCategory = @Model.Category.ID;
+
+		// Set values for hidden inputs
+		$('#categoryContainerId').val(IdForContainerCategory);
+		$('#categoryId').val(IdForCategory);
+
+		// Submit the form
+		$('#postProductsForm').submit();
+	}
+</script>
+ *@
+
+
+
+<!--===============================================================================================-->
+<script src="~/Customer/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<!--===============================================================================================-->
+<!--===============================================================================================-->
+<!--===============================================================================================-->
+<script src="~/Customer/vendor/daterangepicker/moment.min.js"></script>
+<!--===============================================================================================-->
+<script src="~/Customer/vendor/slick/slick.min.js"></script>
+<script src="~/Customer/js/slick-custom.js"></script>
+<!--===============================================================================================-->
+<script src="~/Customer/vendor/parallax100/parallax100.js"></script>
+<script>
+	$('.parallax100').parallax100();
+</script>
+<!--===============================================================================================-->
+<script src="~/Customer/vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
+<script>
+	$('.gallery-lb').each(function () { // the containers for all your galleries
+		$(this).magnificPopup({
+			delegate: 'a', // the selector for gallery item
+			type: 'image',
+			gallery: {
+				enabled: true
+			},
+			mainClass: 'mfp-fade'
+		});
+	});
+</script>
+<!--===============================================================================================-->
+<script src="~/Customer/vendor/isotope/isotope.pkgd.min.js"></script>
+<!--===============================================================================================-->
+<script src="~/Customer/vendor/sweetalert/sweetalert.min.js"></script>
+<script>
+	$('.js-addwish-b2, .js-addwish-detail').on('click', function (e) {
+		e.preventDefault();
+	});
+
+	$('.js-addwish-b2').each(function () {
+		var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
+		$(this).on('click', function () {
+			swal(nameProduct, "is added to wishlist !", "success");
+
+			$(this).addClass('js-addedwish-b2');
+			$(this).off('click');
+		});
+	});
+
+	$('.js-addwish-detail').each(function () {
+		var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
+
+		$(this).on('click', function () {
+			swal(nameProduct, "is added to wishlist !", "success");
+
+			$(this).addClass('js-addedwish-detail');
+			$(this).off('click');
+		});
+	});
+
+	/*---------------------------------------------*/
+
+	$('.js-addcart-detail').each(function () {
+		var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
+		$(this).on('click', function () {
+			swal(nameProduct, "is added to cart !", "success");
+		});
+	});
+
+
+</script>
+<!--===============================================================================================-->
+<script src="~/Customer/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<script>
+	$('.js-pscroll').each(function () {
+		$(this).css('position', 'relative');
+		$(this).css('overflow', 'hidden');
+		var ps = new PerfectScrollbar(this, {
+			wheelSpeed: 1,
+			scrollingThreshold: 1000,
+			wheelPropagation: false,
+		});
+
+		$(window).on('resize', function () {
+			ps.update();
+		})
+	});
+</script>
+<!--===============================================================================================-->
+
+
+<script>
+	$(document).ready(function () {
+		$('#review-slider').slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 1500,
+			dots: false,
+			arrows: false
+		});
+	});
+</script>
+
+@* <script>
+	function addToCart() {
+		var productId = @Model.ID;
+		var quantity = $("#quantityInput").val();
+
+		// Make AJAX request to server
+		$.ajax({
+			type: "POST",
+			url: "/Customer/AddToCart",
+			data: { productId: productId, quantity: quantity },
+			success: function (result) {
+				// Handle success response from server
+				console.log(result);
+				// Reload the page
+				location.reload();
+			},
+			error: function (error) {
+				// Handle error response from server
+				console.error(error);
+			}
+		});
+	}
+</script> *@
+
+@* <script>
+	function addToCart() {
+		var productId = @Model.ID;
+		var quantity = $("#quantityInput").val();
+
+		// Check if quantity is greater than the number of secret codes
+		var secretCodeCount = @Model.secretCodeForProducts.Count;
+		if (parseInt(quantity) > secretCodeCount) {
+			// Display an error message to the user
+			alert("Error: Quantity cannot be greater than the available number of secret codes.");
+			return; // Stop the function execution
+		}
+		else {
+			// Make AJAX request to server
+			$.ajax({
+				type: "POST",
+				url: "/Customer/AddToCart",
+				data: { productId: productId, quantity: quantity },
+				success: function (result) {
+					// Handle success response from server
+					console.log(result);
+					// Reload the page
+					location.reload();
+				},
+				error: function (error) {
+					// Handle error response from server
+					console.error(error);
+				}
+			});
+		}
+	}
+</script> *@
+
+<!-- ... (your existing HTML code) ... -->
+@{
+	var userSession = ViewContext.HttpContext.Session.GetString("LiveUser");
+	User user = !string.IsNullOrEmpty(userSession) ? JsonConvert.DeserializeObject<User>(userSession) : null;
+	if(user == null)
+	{
+		TempData["GoBackToSingleProductUrl"] = Url.Action("SingleProduct", "Customer", new { id = Model.ID });
+	}
+}
+
+@* <script>
+	function addToCart() {
+		var productId = @Model.ID;
+		var quantity = $("#quantityInput").val();
+		var secretCodeCount = @Model.secretCodeForProducts.Count;
+
+		if (parseInt(quantity) > secretCodeCount) {
+			// Display a SweetAlert error message to the user
+			swal("Error", "Quantity cannot be greater than the available number of secret codes.", "error");
+			return; // Stop the function execution
+		} else {
+			// Make AJAX request to server
+			$.ajax({
+				type: "POST",
+				url: "/Customer/AddToCart",
+				data: { productId: productId, quantity: quantity },
+				success: function (result) {
+					// Handle success response from server
+					console.log(result);
+
+					// Show a SweetAlert success message to the user
+					swal("Success", "Product added to cart successfully!", "success").then(function () {
+						// Reload the page after the user clicks "OK" on the success message
+						location.reload();
+					});
+				},
+				error: function (error) {
+					// Handle error response from server
+					console.error(error);
+				}
+			});
+		}
+	}
+
+</script>
+ *@
+
+
+
+<script>
+	function addToCart() {
+		var productId = @Model.ID;
+		var quantity = $("#quantityInput").val();
+		var secretCodeCount = @Model.secretCodeForProducts.Count;
+		var user = @Html.Raw(JsonConvert.SerializeObject(user));
+
+		// Check if user is null
+		if (user === null) {
+			// Redirect to the login page or perform any other action
+			window.location.href = "/LoginAndRegister/Login";
+			return; // Stop the function execution
+		}
+
+		if (parseInt(quantity) > secretCodeCount) {
+			// Display a SweetAlert error message to the user
+			swal("Error", "Quantity cannot be greater than the available number of secret codes.", "error");
+			return; // Stop the function execution
+		} else {
+			// Make AJAX request to server
+			$.ajax({
+				type: "POST",
+				url: "/Customer/AddToCart",
+				data: { productId: productId, quantity: quantity },
+				success: function (result) {
+					// Handle success response from server
+					console.log(result);
+
+					// Show a SweetAlert success message to the user
+					swal("Success", "Product added to cart successfully!", "success").then(function () {
+						// Reload the page after the user clicks "OK" on the success message
+						location.reload();
+					});
+				},
+				error: function (error) {
+					// Handle error response from server
+					console.error(error);
+				}
+			});
+		}
+	}
+</script>
+
+<!-- ... (your existing HTML code) ... -->
+
+
+<script src="~/Customer/js/main.js"></script>
+
+

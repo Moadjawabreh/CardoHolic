@@ -1,0 +1,297 @@
+﻿@model List<CategoryContainer>
+
+@{
+	Layout = "IndexLayout";
+}
+
+
+
+<!-- Slider -->
+<section class="section-slide">
+	<div class="wrap-slick1 rs2-slick1">
+		<div class="slick1">
+			<div class="item-slick1 bg-overlay1"
+				 style="background-image: url('@Url.Content("~/customer/images/backgames3.jpg")')"
+				 data-thumb="~/Customer/images/thumb-01.jpg"
+				 data-caption="Games ">
+
+				<div class="container h-full">
+					<div class="flex-col-c-m h-full p-t-100 p-b-60 respon5">
+						<div class="layer-slick1 animated visible-false"
+							 data-appear="fadeInDown"
+							 data-delay="0">
+							<span class="ltext-202 txt-center cl0 respon2">
+								New Sales !
+							</span>
+						</div>
+
+						<div class="layer-slick1 animated visible-false"
+							 data-appear="fadeInUp"
+							 data-delay="800">
+							<h2 class="ltext-104 txt-center cl0 p-t-22 p-b-40 respon1">
+								Order now
+							</h2>
+						</div>
+
+						<div class="layer-slick1 animated visible-false"
+							 data-appear="zoomIn"
+							 data-delay="1600">
+							@*                                 <form method="get" asp-action="Products">
+							<a asp-route="1"
+							class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn2 p-lr-15 trans-04">
+							Shop Now
+							</a>
+							<input type="submit" hidden />
+							</form> *@
+
+							<form method="get" asp-controller="Customer" asp-action="Products" asp-route-id="1">
+								<button type="submit" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn2 p-lr-15 trans-04">
+									Shop Now
+								</button>
+							</form>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item-slick1 bg-overlay1"
+				 style="background-image: url('@Url.Content("~/customer/images/communicationbackground.jpg")')"
+				 data-thumb="~/Customer/images/thumb-02.jpg"
+				 data-caption="Men’s Wear">
+				<div class="container h-full">
+					<div class="flex-col-c-m h-full p-t-100 p-b-60 respon5">
+						<div class="layer-slick1 animated visible-false"
+							 data-appear="rollIn"
+							 data-delay="0">
+							<span class="ltext-202 txt-center cl0 respon2">
+								Cards New Sales
+							</span>
+						</div>
+
+						<div class="layer-slick1 animated visible-false"
+							 data-appear="lightSpeedIn"
+							 data-delay="800">
+							<h2 class="ltext-104 txt-center cl0 p-t-22 p-b-40 respon1">
+								New category
+							</h2>
+						</div>
+
+						<div class="layer-slick1 animated visible-false"
+							 data-appear="slideInUp"
+							 data-delay="1600">
+							<form method="get" asp-controller="Customer" asp-action="Products" asp-route-id="2">
+								<button type="submit" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn2 p-lr-15 trans-04">
+									Shop Now
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item-slick1 bg-overlay1"
+				 style="background-image: url('@Url.Content("~/customer/images/sliderapp.jpg")')"
+				 data-thumb="~/Customer/images/thumb-03.jpg"
+				 data-caption="Men’s Wear">
+				<div class="container h-full">
+					<div class="flex-col-c-m h-full p-t-100 p-b-60 respon5">
+						<div class="layer-slick1 animated visible-false"
+							 data-appear="rotateInDownLeft"
+							 data-delay="0">
+							<span class="ltext-202 txt-center cl0 respon2">
+								New Apps Added
+							</span>
+						</div>
+
+						<div class="layer-slick1 animated visible-false"
+							 data-appear="rotateInUpRight"
+							 data-delay="800">
+							<h2 class="ltext-104 txt-center cl0 p-t-22 p-b-40 respon1">
+								NEW SEASON
+							</h2>
+						</div>
+
+						<div class="layer-slick1 animated visible-false"
+							 data-appear="rotateIn"
+							 data-delay="1600">
+							<form method="get" asp-controller="Customer" asp-action="Products" asp-route-id="3">
+								<button type="submit" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn2 p-lr-15 trans-04">
+									Shop Now
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		@*         <div class="wrap-slick1-dots p-lr-10"></div>
+		*@
+	</div>
+</section>
+
+<!-- Banner -->
+<div class="sec-banner bg0 p-t-95 p-b-55">
+	<div class="container">
+		<div class="row">
+			@foreach (var item in Model)
+			{
+				<div class="col-md-6 p-b-30 m-lr-auto">
+					<!-- Block1 -->
+					<a href="@Url.Action("Products", "Customer", new { id = item.Id })" class="block1 wrap-pic-w">
+						<img src="@Url.Content(item.Image)" alt="IMG-BANNER" />
+						<div class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
+							<div class="block1-txt-child1 flex-col-l">
+								<span class="block1-name ltext-102 trans-04 p-b-8">
+									@item.Name
+								</span>
+
+								<span class="block1-info stext-102 trans-04">
+									New Trend
+								</span>
+							</div>
+
+							<div class="block1-txt-child2 p-b-4 trans-05">
+								<div class="block1-link stext-101 cl0 trans-09">Shop Now</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			}
+		</div>
+	</div>
+</div>
+
+<!-- Product -->
+<section class="bg0 p-t-23 p-b-130">
+	<div class="container">
+		<div class="p-b-10">
+			<h3 class="ltext-103 cl5">Product Overview</h3>
+		</div>
+
+		<div class="flex-w flex-sb-m p-b-52">
+
+
+			<div class="flex-w flex-l-m filter-tope-group m-tb-10">
+				<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1"
+						data-filter="*">
+					All Products
+				</button>
+
+				<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5"
+						data-filter=".Games">
+					Games
+				</button>
+
+				<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5"
+						data-filter=".Communications">
+					Communications
+				</button>
+
+				<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5"
+						data-filter=".Applications">
+					Applications
+				</button>
+			</div>
+
+			<div class="flex-w flex-c-m m-tb-10">
+
+
+				<div class="flex-c-m stext-106 cl6 size-105 bor4 pointer hov-btn3 trans-04 m-tb-4 js-show-search">
+					<i class="icon-search cl2 m-r-6 fs-15 trans-04 zmdi zmdi-search"></i>
+					<i class="icon-close-search cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+					Search
+				</div>
+			</div>
+
+			<!-- Search product -->
+			<div class="dis-none panel-search w-full p-t-10 p-b-15">
+				<div class="bor8 dis-flex p-l-15">
+					<button class="size-113 flex-c-m fs-16 cl2 hov-cl1 trans-04">
+						<i class="zmdi zmdi-search"></i>
+					</button>
+
+					<input class="mtext-107 cl2 size-114 plh2 p-r-15"
+						   type="text"
+						   name="search-product"
+						   placeholder="Search" />
+				</div>
+			</div>
+
+			<!-- Filter -->
+		</div>
+
+		<div class="row isotope-grid">
+
+			<!-- Block2 -->
+			@foreach (var categoryContainer in Model)
+			{
+				@foreach (var Category in categoryContainer.Categories)
+				{
+					@foreach (var product in Category.Products)
+					{
+						<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item @categoryContainer.Name">
+							<div class="block2">
+								@if (product.percentageOfDiscount < 1)
+								{
+									var result = product.percentageOfDiscount * 100;
+									<div class="block2-pic hov-img0 label-new" data-label="%@result">
+										<img src="@Url.Content(product.UrlImage)" alt="IMG-PRODUCT" />
+
+										<a asp-controller="Customer" asp-action="AddToCart" asp-route-id="@product.ID" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 ">
+											Add To Cart
+										</a>
+										@{
+											TempData["SingleProductUrl"] = Url.Action("Index", "Customer", new { id = product.ID });
+
+										}
+									</div>
+								}
+								else
+								{
+
+									<div class="block2-pic hov-img0 label-new" data-label="">
+										<img src="@Url.Content(product.UrlImage)" alt="IMG-PRODUCT" />
+
+										<a asp-controller="Customer" asp-action="AddToCart" asp-route-id="@product.ID" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 ">
+											Add To Cart
+										</a>
+									</div>
+								}
+								<div class="block2-txt flex-w flex-t p-t-14">
+									<div class="block2-txt-child1 flex-col-l">
+										<a asp-controller="Customer" asp-action="SingleProduct" asp-route-id="@product.ID"
+										   class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+										   @product.Name
+										</a>
+										@{
+											var discountedPrice = product.Price * (1 - product.percentageOfDiscount);
+											var formattedDiscountedPrice = discountedPrice.ToString("0.00");
+										}
+										<span class="stext-105 cl3">
+											<del> $@product.Price</del>
+											<strong> $@formattedDiscountedPrice</strong>
+										</span>
+									</div>
+
+									<div class="block2-txt-child2 flex-r p-t-3">
+
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+					}
+				}
+			}
+
+
+
+		</div>
+
+
+		<!-- Pagination -->
+		
+	</div>
+</section>
+

@@ -1,0 +1,106 @@
+﻿@model IEnumerable<FinalProject.Models.SecretCodeForProduct>
+
+
+@{
+    Layout = "Admin";
+}
+
+
+@{
+    ViewData["Title"] = "Codes";
+}
+
+<div class="container">
+
+    <div class="row pt-4 pb-3">
+        <div class="col-6">
+            <h2 class="text-primary">Codes List</h2>
+        </div>
+
+        <div class="col-6 text-end">
+            <a asp-controller="Admin" asp-action="CreatCode" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i> Create a new Code
+            </a>
+        </div>
+
+        <div class="col-12 mt-3">
+            <form method="post">
+                <div class="input-group">
+                    <input name="SearchItem" type="search" class="form-control rounded m-1" placeholder="Search By Product" aria-label="Search" aria-describedby="search-addon" />
+                    <button asp-action="Codes" type="submit" class="btn btn-outline-primary m-1" data-mdb-ripple-init>Search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Code)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.status)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Product)
+                </th>
+            </tr>
+        <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>
+                            @Html.DisplayFor(modelItem => item.Code)
+                    </td>
+                    <td>
+                            @if (item.status == 0)
+                            {
+                                <text>Not Sold</text>
+                            }
+                            else
+                            {
+                                <text>False</text>
+                            }
+                    </td>
+                    <td>
+                            @Html.DisplayFor(modelItem => item.Product.Name)
+                    </td>
+                    <td>
+                        <a asp-action="UpdateCode" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
+                        <a class="btn btn-danger deletebtn" data-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+                }
+        </tbody>
+    </table>
+
+</div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script>
+    // Use a class selector for delete buttons
+    $('.deletebtn').on('click', function () {
+        var id = $(this).data('id');
+
+        Swal.fire({
+            title: 'Are you sure?',
+            text: 'You won\'t be able to revert this!',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                // User clicked Yes, handle the deletion here
+                window.location.href = '@Url.Action("DeleteCode", "Admin")' + '?id=' + id;
+            }
+        });
+    });
+</script>

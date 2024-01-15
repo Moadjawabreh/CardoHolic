@@ -1,0 +1,83 @@
+﻿@using System.Globalization
+@model List<Order>
+@{
+    Layout = "Admin";
+}
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                <i class="bi bi-person fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Customers Count</p>
+                    <h6 class="mb-0">@ViewBag.Customers</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                <i class="bi fa-3x text-primary bi-bag-check"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Orders Count</p>
+                    <h6 class="mb-0">@ViewBag.Oreders</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                <i class="bi bi-bar-chart  fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Total Sales</p>
+                    <h6 class="mb-0">@ViewBag.Total.ToString("C", CultureInfo.GetCultureInfo("en-JO"))</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                <i class="bi bi-pie-chart-fill fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Total Revenue</p>
+                    <h6 class="mb-0">@ViewBag.TotalReveneu.ToString("C", CultureInfo.GetCultureInfo("en-JO"))
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sale & Revenue End -->
+
+<!-- Recent Sales Start -->
+<div class="container-fluid pt-4 px-4">
+    <div class="bg-light text-center rounded p-4">
+        <div class="d-flex align-items-center justify-content-between mb-4">
+            <h6 class="mb-0">Recent Salse</h6>
+        </div>
+        <div class="table-responsive">
+            <table class="table text-start align-middle table-bordered table-hover mb-0">
+                <thead>
+                    <tr class="text-dark">
+                        <th scope="col">Date</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Customer</th>
+                        <th scope="col">Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.OrderBy(m => m.Date))
+                    {
+                        <tr>
+                            <td>@item.Date</td>
+                            <td>@item.Email</td>
+                            <td>@item.Name</td>
+                            <td>@item.Total</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Recent Sales End -->

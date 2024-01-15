@@ -1,0 +1,306 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+@model User
+
+
+<header>
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding-top: 40px;
+            color: #2e323c;
+            background: #f5f6fa;
+            position: relative;
+            height: 100%;
+        }
+
+        .error-message {
+            color: #ff0000; /* Red color for error messages */
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        .account-settings .user-profile {
+            margin: 0 0 1rem 0;
+            padding-bottom: 1rem;
+            text-align: center;
+        }
+
+            .account-settings .user-profile .user-avatar {
+                margin: 0 0 1rem 0;
+            }
+
+                .account-settings .user-profile .user-avatar img {
+                    width: 90px;
+                    height: 90px;
+                    -webkit-border-radius: 100px;
+                    -moz-border-radius: 100px;
+                    border-radius: 100px;
+                }
+
+            .account-settings .user-profile h5.user-name {
+                margin: 0 0 0.5rem 0;
+            }
+
+            .account-settings .user-profile h6.user-email {
+                margin: 0;
+                font-size: 0.8rem;
+                font-weight: 400;
+                color: #9fa8b9;
+            }
+
+        .account-settings .about {
+            margin: 2rem 0 0 0;
+            text-align: center;
+        }
+
+            .account-settings .about h5 {
+                margin: 0 0 15px 0;
+                color: #007ae1;
+            }
+
+            .account-settings .about p {
+                font-size: 0.825rem;
+            }
+
+        .form-control {
+            border: 1px solid #cfd1d8;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+            font-size: .825rem;
+            background: #ffffff;
+            color: #2e323c;
+        }
+
+        .card {
+            background: #ffffff;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            border: 0;
+            margin-bottom: 1rem;
+        }
+
+    </style>
+</header>
+<body>
+    <form class="container" asp-action="Profile" method="post" onsubmit="return validateForm()" enctype="multipart/form-data">
+        <div class="row gutters">
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <div class="account-settings">
+                            <div class="user-profile">
+                                <div class="user-avatar">
+                                    <img src="@Url.Content(Model.ImageUrl)" alt="" />
+                                    <div>
+                                        <label style="border-radius:1px; margin-top:8px" class="btn btn-primary">
+                                            Change Photo
+                                            <input asp-for="ImageFile" type="file" class="form-control shadow-sm" id="exampleInput" placeholder="Enter something..." style="display: none;">
+                                        </label>
+                                    </div>
+                                </div>
+                                <h5 class="user-name">@Model.Name</h5>
+                                <h6 class="user-email"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5f262a34361f123e27283a3333713c3032">@Model.Email</a></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <div class="row gutters">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <h6 class="mb-2 text-primary">Personal Details</h6>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label asp-for="Name">Full Name</label>
+                                    <input asp-for="Name" type="text" class="form-control" id="Name" placeholder="Enter full name">
+                                    <span id="nameError" class="error-message"></span>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label asp-for="Email">Email</label>
+                                    <input asp-for="Email" type="email" class="form-control" id="Email" placeholder="Enter email ID">
+                                    <span id="emailError" class="error-message"></span>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label asp-for="phoneNumber">Phone</label>
+                                    <input asp-for="phoneNumber" type="text" class="form-control" id="Phone" placeholder="Enter phone number">
+                                    <span id="phoneError" class="error-message"></span>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label asp-for="Password">Password</label>
+                                    <input asp-for="Password" type="text" class="form-control" id="Password" placeholder="Password">
+                                    <span id="passwordError" class="error-message"></span>
+                                </div>
+                                <input asp-for="ID" type="number" hidden />
+                            </div>
+                        </div>
+                        <div class="row gutters">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <h6 class="mt-3 mb-2 text-primary">Address</h6>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label asp-for="City">City</label>
+                                    <select asp-for="City" class="form-control" id="City">
+                                        <option value="@Model.City">@Model.City</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label asp-for="location">Location Url</label>
+                                    <input asp-for="location" type="url" class="form-control" id="Location" placeholder="Enter City">
+                                    <span id="locationError" class="error-message"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gutters">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <div class="text-right">
+                                    <a asp-action="Profile" name="submit" style="border-radius:1px" class="btn btn-secondary">Cancel</a>
+                                    <button type="submit" id="submit" style="border-radius:1px" name="submit" class="btn btn-primary">Update</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+    <script>
+
+        console.log("hiiiiiiiiiiiiiiiiiiiiiiiiii");
+
+        var cities = ["Irbid", "Amman", "Jerash", "Madaba"];
+        var citySelect = document.getElementById('City');
+
+        cities.forEach(function (city) {
+            var option = document.createElement('option');
+            option.value = city;
+            option.text = city;
+            citySelect.add(option);
+        });
+
+        function validateForm() {
+            var name = document.getElementById("Name").value;
+            var email = document.getElementById("Email").value;
+            var password = document.getElementById("Password").value;
+            var phoneNumber = document.getElementById("Phone").value;
+            var locationUrl = document.getElementById("Location").value;
+
+            var nameError = document.getElementById("nameError");
+            var emailError = document.getElementById("emailError");
+            var passwordError = document.getElementById("passwordError");
+            var phoneError = document.getElementById("phoneError");
+            var locationError = document.getElementById("locationError");
+
+            // Reset previous errors
+            nameError.innerHTML = "";
+            emailError.innerHTML = "";
+            passwordError.innerHTML = "";
+            phoneError.innerHTML = "";
+            locationError.innerHTML = "";
+
+            var isValid = true;
+
+            // Validate Name
+            if (name.trim() === "") {
+                nameError.innerHTML = "Name is required";
+                isValid = false;
+            }
+
+            // Validate Email
+            if (!isValidEmail(email)) {
+                emailError.innerHTML = "Invalid email address";
+                isValid = false;
+            }
+
+            // Validate Phone Number
+            if (phoneNumber.trim() === "") {
+                phoneError.innerHTML = "Phone number is required";
+                isValid = false;
+            } else if (!isValidPhoneNumber(phoneNumber)) {
+                phoneError.innerHTML = 'Invalid phone number format (e.g., 1234567890)';
+                isValid = false;
+            }
+
+            // Validate Location URL
+            if (locationUrl.trim() === "") {
+                locationError.innerHTML = "Location URL is required";
+                isValid = false;
+            } else if (!isValidUrl(locationUrl)) {
+                locationError.innerHTML = 'Invalid URL format';
+                isValid = false;
+            }
+
+            // Validate Password
+            if (password.length < 8) {
+                passwordError.innerHTML = "Password must be at least 8 characters long";
+                isValid = false;
+            } else if (!containsUpperCase(password)) {
+                passwordError.innerHTML = "Password must contain at least one uppercase letter";
+                isValid = false;
+            } else if (!containsLowerCase(password)) {
+                passwordError.innerHTML = "Password must contain at least one lowercase letter";
+                isValid = false;
+            } else if (!containsDigit(password)) {
+                passwordError.innerHTML = "Password must contain at least one digit";
+                isValid = false;
+            }
+
+            return isValid;
+        }
+
+        function isValidEmail(email) {
+            // Regular expression for a valid email address
+            var emailRegex = /^[^\s@@]+@@[^\s@@]+\.[^\s@@]+$/;
+            return emailRegex.test(email);
+        }
+
+        function containsUpperCase(str) {
+            return /[A-Z]/.test(str);
+        }
+
+        function containsLowerCase(str) {
+            return /[a-z]/.test(str);
+        }
+
+        function containsDigit(str) {
+            return /\d/.test(str);
+        }
+
+        function isValidUrl(url) {
+            var urlRegex = /^(http|https):\/\/[^ "]+$/;
+            return urlRegex.test(url);
+        }
+
+        function isValidPhoneNumber(phoneValue) {
+            var phoneRegex = /^[0-9]{10}$/;
+            return phoneRegex.test(phoneValue)
+        }
+
+
+    </script>
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript"></script>
+</body>

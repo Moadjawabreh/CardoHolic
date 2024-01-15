@@ -1,0 +1,82 @@
+﻿@model IEnumerable<FinalProject.Models.User>
+
+@{
+    Layout = "Admin";
+}
+
+@{
+    ViewData["Title"] = "Users";
+}
+
+
+<div class="container">
+
+    <div class="row pt-4 pb-3">
+        <div class="col-6">
+            <h2 class="text-primary"> Users</h2>
+        </div>
+        <div class="col-6 text-end">
+
+
+            <div class="input-group">
+                <form method="post">
+                    <div class="input-group">
+                        <input name="SearchItem" type="search" class="form-control rounded m-1" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                        <button asp-action="Users" type="submit" class="btn btn-outline-primary m-1" data-mdb-ripple-init>search</button>
+                    </div>
+                </form>
+            </div>
+
+
+          
+        </div>
+    </div>
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Password)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.location)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Role)
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Password)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.location)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Role)
+                    </td>
+
+
+                </tr>
+
+            }
+    </table>
+
+</div>

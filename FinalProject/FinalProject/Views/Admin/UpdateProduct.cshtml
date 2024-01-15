@@ -1,0 +1,82 @@
+﻿@model FinalProject.Models.Product
+
+@{
+    Layout = "Admin";
+}
+
+@{
+    ViewData["Title"] = "UpdateProduct";
+}
+
+<form method="post" enctype="multipart/form-data">
+
+    <div class="border shadow-lg m-4 p-3">
+
+        <div class="row pb-2">
+            <h2 class="text-primary">Update Product</h2>
+            <hr />
+            <div asp-validation-summary="All">
+            </div>
+        </div>
+
+        <div class="row pb-2">
+
+            <div class="col-6">
+                <label asp-for="Name" class="form-label"></label>
+                <input asp-for="Name" type="text" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="col-6">
+                <label asp-for="Description" class="form-label"></label>
+                <input asp-for="Description" type="text" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="col-6">
+                <label asp-for="Price" class="form-label"></label>
+                <input asp-for="Price" type="text" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="col-6">
+                <label asp-for="Cost" class="form-label"></label>
+                <input asp-for="Cost" type="text" class="form-control" />
+                <span asp-validation-for="Cost" class="text-danger"></span>
+            </div>
+            <div class="col-6">
+                <label asp-for="ImageFile" class="form-label">Category Image</label>
+                <input asp-for="ImageFile" type="file" class="form-control" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+            <div class="col-6">
+                <label asp-for="percentageOfDiscount" class="form-label"></label>
+                <input asp-for="percentageOfDiscount" type="text" class="form-control" />
+                <span asp-validation-for="percentageOfDiscount" class="text-danger"></span>
+            </div>
+
+
+            <div class="col-6">
+                <label asp-for="categoryID" class="control-label"></label>
+                <select asp-for="categoryID" class="form-control" asp-items="@(new SelectList(ViewBag.categoriesList,"ID","Name"))">
+					<option  value="">Choose Category</option>
+				</select>
+                <span asp-validation-for="categoryID" class="text-danger"></span>
+            </div>
+
+        </div>
+        <button type="submit" class="btn btn-primary m-2">Update Category</button>
+
+        <a asp-action="Products" class="btn btn-outline-secondary">Back to List</a>
+
+
+    </div>
+</form>
+
+
+
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

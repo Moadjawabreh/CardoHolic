@@ -1,0 +1,124 @@
+﻿@model IEnumerable<FinalProject.Models.Product>
+
+@{
+    Layout = "Admin";
+}
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+<div class="container">
+
+    <div class="row pt-4 pb-3">
+        <div class="col-6">
+            <h2 class="text-primary"> Product List</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Admin" asp-action="CreatProduct" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i> Create a new Product
+            </a>
+        </div>
+        <div class="col-12 mt-3">
+            <form method="post">
+                <div class="input-group">
+                    <input name="SearchItem" type="search" class="form-control rounded m-1" placeholder="Search By Category" aria-label="Search" aria-describedby="search-addon" />
+                    <button asp-action="Products" type="submit" class="btn btn-outline-primary m-1" data-mdb-ripple-init>Search</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.percentageOfDiscount)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Category)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cost)
+                </th>
+
+
+                <th>
+
+                    @Html.DisplayNameFor(model => model.UrlImage)
+
+                </th>
+            </tr>
+        <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                            @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                            @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                            @Html.DisplayFor(modelItem => item.percentageOfDiscount)
+                    </td>
+                    <td>
+                            @Html.DisplayFor(modelItem => item.Category.Name)
+                    </td>
+                    <td>
+                            @Html.DisplayFor(modelItem => item.Cost)
+                    </td>
+                    <td>
+                        <img style="width:20% ; height:20%  " src="@Url.Content(item.UrlImage)" alt="" />
+                    </td>
+                    <td>
+                        <a asp-action="UpdateProduct" asp-route-id="@item.ID" class="btn btn-warning">Edit</a>
+                        <a class="btn btn-danger deletebtn" data-id="@item.ID">Delete</a>
+                    </td>
+                </tr>
+                }
+        </tbody>
+    </table>
+
+</div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script>
+    // Use a class selector for delete buttons
+    $('.deletebtn').on('click', function () {
+        var id = $(this).data('id');
+
+        Swal.fire({
+            title: 'Are you sure?',
+            text: 'You won\'t be able to revert this!',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                // User clicked Yes, handle the deletion here
+                window.location.href = '@Url.Action("DeleteProduct", "Admin")' + '?id=' + id;
+            }
+        });
+    });
+</script>
