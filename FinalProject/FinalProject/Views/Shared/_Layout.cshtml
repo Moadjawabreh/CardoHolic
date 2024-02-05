@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@using Newtonsoft.Json
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Blog</title>
@@ -66,7 +69,7 @@
 
 					<!-- Logo desktop -->
 					<a asp-action="Index" asp-controller="Customer" class="logo">
-						<img src="~/customer/images/cardoholic.png" alt="IMG-LOGO" />
+						<img src="~/customer/images/whitelogo.png" alt="IMG-LOGO" />
 					</a>
 
 					<!-- Menu desktop -->
@@ -109,17 +112,31 @@
 								</li>
 
 								<li>
+									<a asp-action="Orders" asp-controller="Customer">Orders</a>
+								</li>
+
+								var userSession = ViewContext.HttpContext.Session.GetString("LiveUser");
+								User user = !string.IsNullOrEmpty(userSession) ? JsonConvert.DeserializeObject<User>(userSession) : null;
+
+								if (user.Role == Role.Admin)
+								{
+									<li>
+										<a asp-action="Index" asp-controller="Admin">Admin</a>
+									</li>
+								}
+
+								<li>
 									<a asp-action="Logout" asp-controller="LoginAndRegister">Logout</a>
 								</li>
 
 
-								<li>
-									<a asp-action="Orders" asp-controller="Customer">Orders</a>
-								</li>
+								
 
 							}
 						</ul>
 					</div>
+
+
 
 
 

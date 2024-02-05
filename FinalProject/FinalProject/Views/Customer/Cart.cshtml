@@ -1,4 +1,6 @@
-﻿@model List<Cart>
+﻿@using System.Text.Json;
+
+@model List<Cart>
 
 <header>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
@@ -6,7 +8,7 @@
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
 </header>
 
-	<!-- breadcrumb -->
+<!-- breadcrumb -->
 <div class="container">
 	<div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
 		<a href="index.html" class="stext-109 cl8 hov-cl1 trans-04">
@@ -38,39 +40,56 @@
 								<th class="column-6">Actions</th>
 
 							</tr>
-						@foreach(var item in Model){
-							<tr class="table_row">
-								<td class="column-1">
+							@foreach (var item in Model)
+							{
+								<tr class="table_row">
+									<td class="column-1">
 										<div class="how-itemcart1">
 											<a class="deletebtn" style="cursor: pointer;" data-id="@item.ID">
 												<img src="@Url.Content(item.product.UrlImage)" alt="IMG">
 											</a>
 										</div>
-								</td>
-									
+									</td>
 
 
-								<td class="column-2">@item.product.Name</td>
-								@if(item.product.percentageOfDiscount<1)
+
+									<td class="column-2">@item.product.Name</td>
+									@if (item.product.percentageOfDiscount < 1)
 									{
 										var thePrice = item.product.Price * (1 - item.product.percentageOfDiscount);
 										<td class="column-3">$@thePrice.ToString("0.00") </td>
 									}
-									else{
+									else
+									{
 										<td class="column-3">$@item.product.Price.ToString("0.00")</td>
 
 									}
 									<td class="column-4">
+
 										<div class="wrap-num-product flex-w m-l-auto m-r-0">
 											<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m" onclick="removeFromCart(@item.productId)">
 												<i class="fs-16 zmdi zmdi-minus"></i>
 											</div>
 
-											<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product1" value="@item.Quantity">
+											<input id="quantityInput" class="mtext-104 cl3 txt-center num-product" type="number" name="num-product1" value="@item.Quantity">
 
-											<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m" onclick="addToCart(@item.productId)">
+											@{
+												var prod = item.product;
+												var codeNums = 0;
+												foreach (var code in prod.secretCodeForProducts)
+												{
+													if (code.status == 0)
+													{
+														codeNums++;
+													}
+
+												}
+
+											}
+											<div id="plusIcon" class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m" onclick="addToCart(@item.productId, @codeNums)">
 												<i class="fs-16 zmdi zmdi-plus"></i>
 											</div>
+
 										</div>
 									</td>
 									@if (item.product.percentageOfDiscount < 1)
@@ -92,19 +111,19 @@
 										</a>
 
 									</td>
-							</tr>
-								}
+								</tr>
+							}
 
 						</table>
 					</div>
-					
-					<div class="flex-w flex-sb-m bor15 p-t-18 p-b-15 p-lr-40 p-lr-15-sm">
-					@* 	<div class="flex-w flex-m m-r-20 m-tb-5">
-							<input class="stext-104 cl2 plh4 size-117 bor13 p-lr-20 m-r-10 m-tb-5" type="text" name="coupon" placeholder="Coupon Code">
 
-							<div class="flex-c-m stext-101 cl2 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-5">
-								Apply coupon
-							</div>
+					<div class="flex-w flex-sb-m bor15 p-t-18 p-b-15 p-lr-40 p-lr-15-sm">
+						@* 	<div class="flex-w flex-m m-r-20 m-tb-5">
+						<input class="stext-104 cl2 plh4 size-117 bor13 p-lr-20 m-r-10 m-tb-5" type="text" name="coupon" placeholder="Coupon Code">
+
+						<div class="flex-c-m stext-101 cl2 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-5">
+						Apply coupon
+						</div>
 						</div> *@
 
 						<a href="@Url.Action("Cart", "Customer")" class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10">
@@ -114,128 +133,130 @@
 				</div>
 			</div>
 
-				<div class="col-sm-10 col-lg-7 col-xl-5 m-lr-auto m-b-50">
-					<div class="bor10 p-lr-40 p-t-30 p-b-40 m-l-63 m-r-40 m-lr-0-xl p-lr-15-sm">
-						<h4 class="mtext-109 cl2 p-b-30">
-							Cart Totals
-						</h4>
+			<div class="col-sm-10 col-lg-7 col-xl-5 m-lr-auto m-b-50">
+				<div class="bor10 p-lr-40 p-t-30 p-b-40 m-l-63 m-r-40 m-lr-0-xl p-lr-15-sm">
+					<h4 class="mtext-109 cl2 p-b-30">
+						Cart Totals
+					</h4>
 
-						<div class="flex-w flex-t bor12 p-b-13">
-							<div class="size-208">
-								<span class="stext-110 cl2">
-									Subtotal:
-								</span>
-							</div>
-
-							<div class="size-209">
-								<span class="mtext-110 cl2">
-									@{
-										var totalPrice = 0.0;
-									}
-
-									@foreach (var total in Model)
-									{
-										totalPrice = totalPrice + (total.product.Price) * total.Quantity;
-									}
-									@totalPrice.ToString("0.00")
-								</span>
-							</div>
+					<div class="flex-w flex-t bor12 p-b-13">
+						<div class="size-208">
+							<span class="stext-110 cl2">
+								Subtotal:
+							</span>
 						</div>
 
-						<div class="flex-w flex-t bor12 p-t-15 p-b-30">
-							<div class="size-208 w-full-ssm">
-								<span class="stext-110 cl2">
-									Shipping:
-								</span>
-							</div>
+						<div class="size-209">
+							<span class="mtext-110 cl2">
+								@{
+									var totalPrice = 0.0;
+								}
 
-							<div class="size-209 p-r-18 p-r-0-sm w-full-ssm">
-							
+								@foreach (var total in Model)
+								{
+									totalPrice = totalPrice + (total.product.Price) * total.Quantity;
+								}
+								@totalPrice.ToString("0.00")
+							</span>
+						</div>
+					</div>
 
-								<div class="p-t-15">
-									
-									<div class="rs1-select2 rs2-select2 bor8 bg0 m-b-12 m-t-9">
-										<input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="state" placeholder="Your Name">
-										<div class="dropDownSelect2"></div>
-									</div>
+					<div class="flex-w flex-t bor12 p-t-15 p-b-30">
+						<div class="size-208 w-full-ssm">
+							<span class="stext-110 cl2">
+								Shipping:
+							</span>
+						</div>
 
-									<div class="bor8 bg0 m-b-12">
-										<input class="stext-111 cl8 plh3 size-111 p-lr-15" type="email" name="state" placeholder="Your Email">
-									</div>
-
-
-									<div class="bor8 bg0 m-b-22">
-										<input class="stext-111 cl8 plh3 size-111 p-lr-15" type="number" name="cardnumber" id="CardNumber" placeholder="Card Number">
-									</div>
-
-									<div class="bor8 bg0 m-b-22">
-										<input class="stext-111 cl8 plh3 size-111 p-lr-15" type="password" name="password" id="passwordInput" placeholder="Password">
-
-									</div>
-
-									<div class="flex-w">
-										<div class="flex-c-m stext-101 cl2 size-115 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer" onclick="redirectToCart()">
-											Update Totals
-										</div>
-
-									</div>
+						<div class="size-209 p-r-18 p-r-0-sm w-full-ssm">
 
 
+							<div class="p-t-15">
+
+								<div class="rs1-select2 rs2-select2 bor8 bg0 m-b-12 m-t-9">
+									<input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="state" placeholder="Your Name">
+									<div class="dropDownSelect2"></div>
+								</div>
+
+								<div class="bor8 bg0 m-b-12">
+									<input class="stext-111 cl8 plh3 size-111 p-lr-15" type="email" name="state" placeholder="Your Email">
+								</div>
+
+
+								<div class="bor8 bg0 m-b-22">
+									<input class="stext-111 cl8 plh3 size-111 p-lr-15" type="number" name="cardnumber" id="CardNumber" placeholder="Card Number">
+								</div>
+
+								<div class="bor8 bg0 m-b-22">
+									<input class="stext-111 cl8 plh3 size-111 p-lr-15" type="password" name="password" id="passwordInput" placeholder="Password">
 
 								</div>
-							</div>
-						</div>
 
-						<div class="flex-w flex-t p-t-27 p-b-33">
-							<div class="size-208">
-								<span class="mtext-101 cl2">
-									Total:
-								</span>
-							</div>
+								<div class="flex-w">
+									<div class="flex-c-m stext-101 cl2 size-115 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer" onclick="redirectToCart()">
+										Update Totals
+									</div>
 
-							<div class="size-209 p-t-1">
-								<span class="mtext-110 cl2">
+								</div>
 
 
-									@{
-										var totalPriceAfterSales = 0.0;
-									}
-									@foreach (var Cart in Model)
-									{
-
-										if (Cart.product.percentageOfDiscount == 1)
-										{
-											totalPriceAfterSales = totalPriceAfterSales + (Cart.product.Price) * Cart.Quantity;
-										}
-										else
-										{
-											totalPriceAfterSales = totalPriceAfterSales + Cart.product.Price * (1 - Cart.product.percentageOfDiscount) * Cart.Quantity;
-
-										}
-
-									}
-
-
-									@totalPriceAfterSales.ToString("0.00")
-								</span>
 
 							</div>
 						</div>
-
-						<button class="flex-c-m stext-101 cl0 size-116 bg3 bor14 hov-btn3 p-lr-15 trans-04 pointer" type="submit">
-							Proceed to Checkout
-						</button>
 					</div>
+
+					<div class="flex-w flex-t p-t-27 p-b-33">
+						<div class="size-208">
+							<span class="mtext-101 cl2">
+								Total:
+							</span>
+						</div>
+
+						<div class="size-209 p-t-1">
+							<span class="mtext-110 cl2">
+
+
+								@{
+									var totalPriceAfterSales = 0.0;
+								}
+								@foreach (var Cart in Model)
+								{
+
+									if (Cart.product.percentageOfDiscount == 1)
+									{
+										totalPriceAfterSales = totalPriceAfterSales + (Cart.product.Price) * Cart.Quantity;
+									}
+									else
+									{
+										totalPriceAfterSales = totalPriceAfterSales + Cart.product.Price * (1 - Cart.product.percentageOfDiscount) * Cart.Quantity;
+
+									}
+
+								}
+
+
+								@totalPriceAfterSales.ToString("0.00")
+							</span>
+
+						</div>
+					</div>
+
+					<button class="flex-c-m stext-101 cl0 size-116 bg3 bor14 hov-btn3 p-lr-15 trans-04 pointer" type="submit">
+						Proceed to Checkout
+					</button>
 				</div>
+			</div>
 		</div>
 	</div>
 </form>
+
+
 
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <script>
 	function redirectToCheckout() {
 		// Fetch values from input fields
-	
+
 		var cardNumber = document.getElementById('CardNumber').value;
 		var password = document.getElementById('passwordInput').value;
 
@@ -260,25 +281,64 @@
 	}
 </script>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js"></script>
+
 <script>
-	function addToCart(productId) {
-		// Make an AJAX request to your server to add the product to the cart
-		$.ajax({
-			type: "POST",
-			url: "/Customer/AddToCart",
-			data: {
-				productId: productId,
-				quantity: 1
-			},
-			success: function (response) {
-				// Handle the response if needed
-				console.log(response);
-			},
-			error: function (error) {
-				console.error("Error adding to cart", error);
-			}
-		});
+
+
+	function addToCart(productId, codeNums) {
+		// Get the quantity input element
+		var quantityInput = document.getElementById('quantityInput').value
+		// Get the plus icon element
+		var plusIcon = document.getElementById('plusIcon');
+		
+			// If equal, disable or hide the plus icon
+		// if (codeNums + 1 === parseInt(quantityInput) || parseInt(quantityInput) > codeNums + 1) {
+		// 	// Display SweetAlert error
+		// 	var allCodes = codeNums + 1 + "";
+		// 	quantityInput.value = allCodes;
+		// 	Swal.fire({
+		// 		icon: 'error',
+		// 		title: 'Oops...',
+		// 		text: 'An error occurred!',
+		// 		// You can customize the SweetAlert options further
+		// 	});
+		// }
+		 if (codeNums === 0) {
+			Swal.fire({
+				icon: 'error',
+				title: 'Oops...',
+				text: 'There is no quantity left for this product!',
+				// You can customize the SweetAlert options further
+			});
+
+		}
+		else {
+			$.ajax({
+				type: "POST",
+				url: "/Customer/AddToCart",
+				data: {
+					productId: productId,
+					quantity: 1
+				},
+				success: function (response) {
+					// Handle the response if needed
+					console.log(response);
+					// Check if quantity is equal to codeNums
+					location.reload();
+
+				},
+				error: function (error) {
+					console.error("Error adding to cart", error);
+				}
+			});
+
+		
+		}
 	}
+
+
 
 	function removeFromCart(productId) {
 		// Make an AJAX request to your server to remove the product from the cart

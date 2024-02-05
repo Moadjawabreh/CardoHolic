@@ -208,14 +208,24 @@
 						<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item @product.Category.Name">
 							<!-- Block2 -->
 							<div class="block2">
+
+							<div class="block2">
 								<div class="block2-pic hov-img0">
+									<img src="@Url.Content(product.UrlImage)" alt="IMG-PRODUCT" style="width: 250px; height: 200px;">
+
+									<a asp-controller="Customer" asp-action="SingleProduct" asp-route-id="@product.ID" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
+										Quick View
+									</a>
+								</div>
+							</div>
+@* 								<div class="block2-pic hov-img0">
 									<img src="@Url.Content(product.UrlImage)" alt="IMG-PRODUCT">
 
 									<a asp-controller="Customer" asp-action="SingleProduct" asp-route-id="@product.ID" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 ">
 										Quick View
 									</a>
 								</div>
-
+ *@
 								<div class="block2-txt flex-w flex-t p-t-14">
 									<div class="block2-txt-child1 flex-col-l ">
 										<a class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">

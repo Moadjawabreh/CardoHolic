@@ -56,15 +56,16 @@
 				</a>
 				@Html.Partial("AdminUser", dbContext.GetUser())
 				<div class="navbar-nav w-100">
-					<a asp-action="Index" asp-controller="Admin" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+					<a asp-action="Index" asp-controller="Admin" class="nav-item nav-link "><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+					<a asp-action="Index" asp-controller="Customer" class="nav-item nav-link"><i class="bi bi-house-door-fill"></i>Home</a>
 					<a asp-action="CategoryContainer" asp-controller="Admin" class="nav-item nav-link"><i class="bi bi-collection"></i>Collections</a>
 					<a asp-action="Categories" asp-controller="Admin" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Categories</a>
 					<a asp-action="Products" asp-controller="Admin" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Products</a>
 					<a asp-action="Codes" asp-controller="Admin" class="nav-item nav-link"><i class="bi bi-incognito"></i>Codes</a>
 					<a asp-action="Users" asp-controller="Admin" class="nav-item nav-link"><i class="bi bi-people"></i>Users</a>
 					<a asp-action="Testimonials" asp-controller="Admin" class="nav-item nav-link"><i class="bi bi-pencil-square"></i>Testimonials</a>
-					<a asp-action="Logout" asp-controller="LoginAndRegister" class="nav-item nav-link"><i class="bi bi-box-arrow-left"></i>Logout</a>
 					<a asp-action="Profile" asp-controller="Customer" class="nav-item nav-link"><i class="bi bi-person-circle"></i>Profile</a>
+					<a asp-action="Logout" asp-controller="LoginAndRegister" class="nav-item nav-link"><i class="bi bi-box-arrow-left"></i>Logout</a>
 
 				</div>
 			</nav>
@@ -105,14 +106,14 @@
 						</div>
 					</div>
 					<div class="nav-item dropdown">
-						<a  class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+						<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
 
 						</a>
 						<div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
 							<a asp-controller="Customer" asp-action="Index" class="dropdown-item">My Profile</a>
 							<a asp-controller="Customer" asp-action="Index" class="dropdown-item">Log Out</a>
 						</div>
-					
+
 					</div>
 				</div>
 			</nav>

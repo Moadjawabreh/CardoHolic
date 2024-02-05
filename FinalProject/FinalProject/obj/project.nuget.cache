@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eQc867Tj7Xwvu1h7614ufo4rjE5T+orpFMV9t3rUbkyPSrzeAEfl+ROKH6ro7GsivR9L00dHJ9EK5u2LnOCogA==",
+  "dgSpecHash": "TDDFT1iDEbTEo7nJ1C8nNEVIo/frxgMAW4lkwHLaXeNqk1YEjowfYg5UFx7lEKbqzFiNl1WZdrGItmcr0pqpXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Desktop\\test3\\FinalProject\\FinalProject\\FinalProject.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Desktop\\CardoHolic\\FinalProject\\FinalProject\\FinalProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

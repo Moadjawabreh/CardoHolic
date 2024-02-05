@@ -90,7 +90,7 @@
                 <nav class="limiter-menu-desktop p-l-45">
                     <!-- Logo desktop -->
                     <a href="#" class="logo">
-                        <img src="~/customer/images/cardoholic.png" alt="IMG-LOGO" />
+                        <img src="~/customer/images/LogoCard.png" alt="IMG-LOGO" />
                     </a>
 
                     <!-- Menu desktop -->
@@ -132,23 +132,27 @@
                                 </li>
 
                                 <li>
-                                    <a asp-action="Logout" asp-controller="LoginAndRegister">Logout</a>
-                                </li>
-
-
-                                <li>
                                     <a asp-action="Orders" asp-controller="Customer">Orders</a>
                                 </li>
 
                                 var userSession = ViewContext.HttpContext.Session.GetString("LiveUser");
                                 User user = !string.IsNullOrEmpty(userSession) ? JsonConvert.DeserializeObject<User>(userSession) : null;
 
-                                if ( user.Role == Role.Admin)
+                                if (user.Role == Role.Admin)
                                 {
                                     <li>
                                         <a asp-action="Index" asp-controller="Admin">Admin</a>
                                     </li>
                                 }
+
+                                <li>
+                                    <a asp-action="Logout" asp-controller="LoginAndRegister">Logout</a>
+                                </li>
+
+
+                              
+
+                                
                             }
                         </ul>
                     </div>
@@ -319,7 +323,7 @@
                     <ul>
                         <li class="p-b-10">
                             <a asp-action="Contact" asp-controller="Customer" class="stext-107 cl7 hov-cl1 trans-04">
-                                Track Order
+                                Contact Us
                             </a>
                         </li>
 
@@ -334,7 +338,7 @@
                     </p>
 
                     <div class="p-t-27">
-                        <a href="https://web.facebook.com/profile.php?id=100008653475494" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+                        <a href="https://web.facebook.com/profile.php?id=100008653475494" target="_blank" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
                             <i class="fa fa-facebook"></i>
                         </a>
 
@@ -345,7 +349,7 @@
                 <div class="col-sm-6 col-lg-3 p-b-50">
                     <h4 class="stext-301 cl0 p-b-30">Newsletter</h4>
 
-                    <form>
+                    <form target="_blank" action="https://formsubmit.co/moadjawabreh2001@gmail.com" method="post">
                         <div class="wrap-input1 w-full p-b-4">
                             <input class="input1 bg-none plh1 stext-107 cl7"
                                    type="text"
@@ -360,30 +364,34 @@
                             </button>
                         </div>
                     </form>
+
+
+
+
                 </div>
             </div>
 
             <div class="p-t-40">
                 <div class="flex-c-m flex-w p-b-18">
-                    <a href="#" class="m-all-1">
-                        <img src="~/Customer/images/icons/icon-pay-01.png" alt="ICON-PAY" />
-                    </a>
+                @*       <a href="#" class="m-all-1">
+                          <img src="~/Customer/images/icons/icon-pay-01.png" alt="ICON-PAY" />
+                      </a>
 
-                    <a href="#" class="m-all-1">
-                        <img src="~/Customer/images/icons/icon-pay-02.png" alt="ICON-PAY" />
-                    </a>
+                      <a href="#" class="m-all-1">
+                          <img src="~/Customer/images/icons/icon-pay-02.png" alt="ICON-PAY" />
+                      </a>
 
-                    <a href="#" class="m-all-1">
-                        <img src="~/Customer/images/icons/icon-pay-03.png" alt="ICON-PAY" />
-                    </a>
+                      <a href="#" class="m-all-1">
+                          <img src="~/Customer/images/icons/icon-pay-03.png" alt="ICON-PAY" />
+                      </a>
 
-                    <a href="#" class="m-all-1">
-                        <img src="~/Customer/images/icons/icon-pay-04.png" alt="ICON-PAY" />
-                    </a>
+                      <a href="#" class="m-all-1">
+                          <img src="~/Customer/images/icons/icon-pay-04.png" alt="ICON-PAY" />
+                      </a>
 
-                    <a href="#" class="m-all-1">
-                        <img src="~/Customer/images/icons/icon-pay-05.png" alt="ICON-PAY" />
-                    </a>
+                      <a href="#" class="m-all-1">
+                          <img src="~/Customer/images/icons/icon-pay-05.png" alt="ICON-PAY" />
+                      </a> *@
                 </div>
 
                 <p class="stext-107 cl6 txt-center">

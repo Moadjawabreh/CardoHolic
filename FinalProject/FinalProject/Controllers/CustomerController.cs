@@ -105,10 +105,16 @@ namespace FinalProject.Controllers
 			string? userJson = HttpContext.Session.GetString("LiveUser");
 			var userSession = JsonConvert.DeserializeObject<User>(userJson);
 
+			//var carts = _db.Cart
+			//.Include(c => c.product)
+			//.Where(c => c.UserId == userSession.ID && c.Flag == true && c.product.secretCodeForProducts.Any(sc => sc.status == 1))
+			//.ToList();
 			var carts = _db.Cart
-			.Include(c => c.product)
-			.Where(c => c.UserId == userSession.ID && c.Flag == true && c.product.secretCodeForProducts.Any(sc => sc.status == 1))
-			.ToList();
+	.Include(c => c.product)
+		.ThenInclude(p => p.secretCodeForProducts)
+	.Where(c => c.UserId == userSession.ID && c.Flag == true && c.product.secretCodeForProducts.Any(sc => sc.status == 1))
+	.ToList();
+
 			return View(carts);
 		}
 
@@ -223,9 +229,9 @@ namespace FinalProject.Controllers
 			string? userJson = HttpContext.Session.GetString("LiveUser");
 
 
-
 			if (!string.IsNullOrEmpty(userJson))
 			{
+
 				var userSession = JsonConvert.DeserializeObject<User>(userJson);
                 var existCarts = _db.Cart
 				.Where(cart => cart.UserId == userSession.ID && cart.productId == productId && cart.Flag == true)
@@ -235,7 +241,8 @@ namespace FinalProject.Controllers
 				 .Include(p => p.secretCodeForProducts)
 				 .FirstOrDefault(p => p.ID == productId && p.secretCodeForProducts.Any(sc => sc.status==0));
 
-				int codeNums = product.secretCodeForProducts.Count(sc => sc.status == 0);
+				var codeNums = product.secretCodeForProducts.Count(sc => sc.status == 0);
+				ViewBag.CodeNums = codeNums;
 
 				foreach (var item in existCarts)
 				{
